@@ -1,0 +1,65 @@
+\o Program:		@(#)$CDS: cdsLibEditor version 6.1.7 - CAT35 10/18/2015 00:07 (sjfnl678) $
+\o Sub version:		sub-version  p009 
+\o Arguments:		-display :0 -mpssession virtuoso24710 -mpshost berkeley -namespace CDBA -cdslib /home/cadence/Desktop/folded_cascode_project/cds.lib 
+\o Working Directory:	berkeley:/home/cadence/Desktop/folded_cascode_project
+\o 64-bit offsets
+\a nrSetWindowVisibility(cdsLibEditor "show")
+\o Qt version: 		4.8.5
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemAction(cdsLibEditor->mainTable 0 0)
+\o Active cell: 0 0 "cdsDefTechLib"
+\a nrResizeWindow(cdsLibEditor list(2 66 500 400))
+\a nrListItemAction(cdsLibEditor->mainTable 8 0)
+\o Active cell: 8 0 "tsmcN65"
+\a nrListItemAction(cdsLibEditor->mainTable 7 1)
+\o Active cell: 7 1 "../../../etc/cdslib/artist/functional"
+\a nrListItemAction(cdsLibEditor->mainTable 8 1)
+\o Active cell: 8 1 "./tsmcN65"
+\a nrListItemAction(cdsLibEditor->mainTable 8 0)
+\o Active cell: 8 0 "tsmcN65"
+\a cdsLibEditor->editDeletePopupButton->value = t
+\a nrListItemAction(cdsLibEditor->mainTable 8 1)
+\o Active cell: 8 1 "./tsmcN65"
+\a nrListItemAction(cdsLibEditor->mainTable 7 1)
+\o Active cell: 7 1 "../../../etc/cdslib/artist/functional"
+\a nrListItemAction(cdsLibEditor->mainTable 15 0)
+\o Active cell: 15 0 "super_cascode_project"
+\a nrListItemAction(cdsLibEditor->mainTable 15 1)
+\o Active cell: 15 1 "/home/cadence/tsmc65nm/super_cascode_project"
+\a cdsLibEditor->editDeletePopupButton->value = t
+\a nrListItemAction(cdsLibEditor->mainTable 16 0)
+\o Active cell: 16 0 "analog_ic_1"
+\a nrListItemAction(cdsLibEditor->mainTable 15 1)
+\o Active cell: 15 1 "analog_ic_1"
+\a cdsLibEditor->editDeletePopupButton->value = t
+\a nrListItemAction(cdsLibEditor->mainTable 16 0)
+\o Active cell: 16 0 "super_cascode_project_final"
+\a nrListItemAction(cdsLibEditor->mainTable 15 1)
+\o Active cell: 15 1 "super_cascode_project_final"
+\a cdsLibEditor->editDeletePopupButton->value = t
+\a nrListItemAction(cdsLibEditor->mainTable 16 0)
+\o Active cell: 16 0 "folded_cascode_project"
+\a nrListItemAction(cdsLibEditor->mainTable 15 1)
+\o Active cell: 15 1 "/home/cadence/tsmc65nm/folded_cascode_project"
+\a cdsLibEditor->editDeletePopupButton->value = t
+\a nrListItemAction(cdsLibEditor->mainTable 16 0)
+\o Active cell: 16 0 ""
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemAction(cdsLibEditor->mainTable 15 1)
+\o Active cell: 15 1 ""
+\a nrListItemAction(cdsLibEditor->mainTable 14 1)
+\o Active cell: 14 1 "/home/cadence/tsmc65nm/diff_amp"
+\a nrListItemAction(cdsLibEditor->mainTable 15 1)
+\o Active cell: 15 1 "/home/cadence/tsmc65nm/tsmcN65"
+\a nrListItemAction(cdsLibEditor->mainTable 15 0)
+\o Active cell: 15 0 ""
+\a nrListItemAction(cdsLibEditor->mainTable 16 1)
+\o Active cell: 16 1 ""
+\a nrListItemAction(cdsLibEditor->mainTable 14 1)
+\o Active cell: 14 1 "/home/cadence/tsmc65nm/diff_amp"
+\a nrResizeWindow(cdsLibEditor list(2 66 714 521))
+\a cdsLibEditor->fileSaveButton->value = t
+\a nrResizeWindow(cdsLibEditor list(163 108 714 521))
+\a cdsLibEditor->fileExitButton->value = t
+\a nrSetWindowVisibility(cdsLibEditor "hide")
+\a exit(0)

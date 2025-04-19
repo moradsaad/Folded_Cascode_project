@@ -1,0 +1,17 @@
+# File Created by cadence,,, at Fri Apr 18 09:30:36 2025
+# assisted by CdsLibEditor
+SOFTINCLUDE /usr/local/cadence/IC617/share/cdssetup/dfII/cds.lib
+SOFTINCLUDE /usr/local/cadence/IC617/share/cdssetup/hdl/cds.lib
+SOFTINCLUDE /usr/local/cadence/IC617/share/cdssetup/pic/cds.lib
+SOFTINCLUDE /usr/local/cadence/IC617/share/cdssetup/sg/cds.lib
+DEFINE MentorObserverLib $MGC_HOME/shared/pkgs/icv/tools/realtime/virtuoso/MentorObserverLib
+DEFINE RF_Session /home/cadence/tsmc65nm/RF_Session
+DEFINE BGR /home/cadence/tsmc65nm/BGR
+DEFINE inverter /home/cadence/tsmc65nm/inverter
+DEFINE inverter_2 /home/cadence/tsmc65nm/inverter_2
+DEFINE Test_2 /home/cadence/tsmc65nm/Test_2
+DEFINE diff_amp /home/cadence/tsmc65nm/diff_amp
+#Removed by ddDeleteObj: DEFINE super_cascode_initial /home/cadence/tsmc65nm/super_cascode_initial
+#Removed by ddDeleteObj: DEFINE super_cascode_project_55 super_cascode_project_55
+DEFINE tsmcN65 /home/cadence/tsmc65nm/tsmcN65
+DEFINE folded_cascode_project /home/cadence/Desktop/folded_cascode_project/folded_cascode_project

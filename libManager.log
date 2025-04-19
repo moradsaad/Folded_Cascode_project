@@ -1,12 +1,12 @@
 \o Program:		@(#)$CDS: libManager version 6.1.7 - CAT35 10/18/2015 00:06 (sjfnl678) $
 \o Sub version:		sub-version  p009 
-\o Arguments:		-unmapped -mpssession virtuoso5019 -mpshost berkeley 
-\o Working Directory:	berkeley:/home/cadence/Desktop/folded_cascode_project
+\o Arguments:		-unmapped -mpssession virtuoso2012 -mpshost berkeley 
+\o Working Directory:	berkeley:/home/cadence/Desktop/user2
 \o 64-bit offsets
 \o Qt version: 		4.8.5
-\o changeWorkingDir("/home/cadence/Desktop/folded_cascode_project") unnecessary.
+\o changeWorkingDir("/home/cadence/Desktop/user2") unnecessary.
 \o ddSetForcedLib("") unnecessary.
-\o Log file is "/home/cadence/Desktop/folded_cascode_project/libManager.log".
+\o Log file is "/home/cadence/Desktop/user2/libManager.log".
 \o Opening libManager window.
 \a nrSetWindowVisibility(cdsLibManager "show")
 \o MPS service: map window
@@ -49,5 +49,34 @@
 \a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "folded_cascode_project"
+\a cdsLibManager->libLineEdit->value = "folded_cascode_project"
+\a cdsLibManager->cellListBox->value = "Mosfet_charecterisation"
+\a cdsLibManager->cellLineEdit->value = "Mosfet_charecterisation"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = "Mosfet_charecterisation"
+\a cdsLibManager->cellLineEdit->value = "Mosfet_charecterisation"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(cdsLibManager)
 \a _lmgrCloseIconify("cdsLibManager" 1)

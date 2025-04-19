@@ -1,0 +1,1453 @@
+\# Program start time UTC 2025.04.19 12:53:33.362
+\# Local time Saturday 19 April 2025, 8:53 am
+\o Program:		@(#)$CDS: virtuoso version 6.1.7-64b 11/09/2015 12:45 (sjfnl165) $
+\o Hierarchy:		/usr/local/cadence/IC617/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.7-64b.78  (64-bit addresses)
+\# Command line:	/usr/local/cadence/IC617/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso2012 -mpshost berkeley -davinciService DaVinciService_2012_1745064601 -log /home/cadence/Desktop/user2/logs_cadence/logs0/Job4.log -licenseLockFileName /home/cadence/Desktop/user2/.tmp_cadence/.berkeley_2012 -nograph -nostdin -axlChildIdFlag 4
+\# Host name (type):	berkeley (x86_64)
+\# Operating system:	Linux 3.16.0-11-amd64 #1 SMP Debian 3.16.84-1 (2020-06-09)
+\# Linux /etc/issue:	Debian GNU/Linux 8 \n \l
+\# X display name (WxH):	berkeley:80 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			RealVNC Ltd (VNC nograph server, PID 8480)
+\# Depth of Visual (Root):	16 (16)
+\# Number of Planes Used:	16
+\# X version:		11.0 (vendor release 3370)
+\# X resource pool:	base 0x800000, mask 0x3fffff (4194303), shift 0
+\# 			current id 0x0, current max 0x3ffffa (4194298)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        382 MB
+\# Available memory:	     10,338 MB
+\# System memory:	     12,083 MB
+\# Maximum memory size:	     11,780 MB
+\# Max mem available:	     10,418 MB
+\# Initial memory used:	         80 MB
+\#        process size:	        890 MB
+\# Qt version:		4.8.5
+\# Window Manager:	other
+\# User Name:		cadence
+\o Working Directory:	berkeley:/home/cadence/Desktop/user2
+\# Process Id:		8487
+\o 
+\o COPYRIGHT © 1992-2015  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           © 1992-2015  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading socket.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\o *Info*    Client has finished starting ... 
+\o 
+\p > 
+\a _treeSetOpcGUI(t)
+\r t
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = folded_cascode_project
+\o 	Cell         = Mosfet_charecterisation
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = folded_cascode_project:Mosfet_charecterisation:1_none_Interactive.10
+\o 	Results DB   = /home/cadence/Desktop/user2/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.10.rdb
+\o 	Results Dir  = /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.10/1/folded_cascode_project:Mosfet_charecterisation:1
+\o 	Results Loc  = /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data
+\o 	Project Dir  = /home/cadence/simulation
+\o 	Setup DB loc = /home/cadence/Desktop/user2/folded_cascode_project/Mosfet_charecterisation/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o Loading simui.cxt 
+\o Loading viva.cxt 
+\o *Info*    Spectre controlMode is set "batch".
+\o 
+\o Loading spectrei.cxt 
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\o Initializing from libInit.il for library tsmcN65...
+\o    --  /home/cadence/tsmc65nm/tsmcN65/../skill/pcode1.cxt
+\# Memory report: using         289 MB, process size 1,232 MB at UTC 2025.04.19 12:53:35.130
+\o    --  /home/cadence/tsmc65nm/tsmcN65/../skill/pcode2.cxt
+\o    --  tsmcPdkParamTable.il
+\o    --  tsmcN65_updateCDFs.il
+\o    --  tsmc_esti.ile
+\o    --  /home/cadence/tsmc65nm/tsmcN65/../skill/tsmcN65gp_v1d0c.cxt
+\o    --  /home/cadence/tsmc65nm/tsmcN65/../skill/tsmcN65_newAMS.cxt
+\o    --  /home/cadence/tsmc65nm/tsmcN65/../skill/tsmcN65_newRTMOM.cxt
+\o    --  /home/cadence/tsmc65nm/tsmcN65/../skill/tsmcN65GP_v1d0.cxt
+\o    --  tif_tcf_crn65gp_v1.0a.cxt
+\o    --  tsmcN65Tool.cxt
+\o    --  tsmcN65.cxt
+\o    --  /home/cadence/tsmc65nm/tsmcN65/../skill/tsmcN65GP_v1d0.cxt
+\w *WARNING* (loadContext): context //home/cadence/tsmc65nm/tsmcN65/../skill/64bit/tsmcN65GP_v1d0.cxt already loaded
+\o    --  /home/cadence/tsmc65nm/tsmcN65/../skill/tsmcN65_newRTMOM.cxt
+\w *WARNING* (loadContext): context //home/cadence/tsmc65nm/tsmcN65/../skill/64bit/tsmcN65_newRTMOM.cxt already loaded
+\o    --  /home/cadence/tsmc65nm/tsmcN65/../skill/tsmcN65_newAMS.cxt
+\w *WARNING* (loadContext): context //home/cadence/tsmc65nm/tsmcN65/../skill/64bit/tsmcN65_newAMS.cxt already loaded
+\o Loading PDK Display File '/home/cadence/tsmc65nm/tsmcN65/../display.drf'
+\o Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading msgHandler.cxt 
+\o Loading UltraSim.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\o WARNING (ADE-5033): Cannot find the environment variable 'sweeptype' for tool 'ams.hbsp'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5034): Unable to access the default environment variables in the simulator's
+\o         global .cdsenv file ('<your_install_dir>/tools/dfII/etc/tools/ams/.cdsenv')
+\o         because the file is missing or out-of-date. Till this problem exists, internal
+\o         default values will be used for these environment variables during this session.
+\o WARNING (ADE-5033): Cannot find the environment variable 'rangeType' for tool 'ams.hbsp'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'noisetypeUI' for tool 'ams.hbnoise'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'MultiEna' for tool 'ams.hbnoise'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'rangeType' for tool 'ams.hbnoise'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'sbsm' for tool 'ams.hbnoise'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'outType' for tool 'ams.hbnoise'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'inType' for tool 'ams.hbnoise'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'refsbSelect' for tool 'ams.hbnoise'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'donoise' for tool 'ams.hbnoise'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'special' for tool 'ams.hbac'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'rangeType' for tool 'ams.hbac'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'sbsm' for tool 'ams.hbac'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'dynParamB' for tool 'ams.hb'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'tones' for tool 'ams.hb'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'oscana' for tool 'ams.hb'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'HBTonesNum' for tool 'ams.hb'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'multiDividerMode' for tool 'ams.hb'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'harmonicsCyc' for tool 'ams.hb'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'harmonics' for tool 'ams.hb'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'sigpartB' for tool 'ams.hb'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'hbhomotopy' for tool 'ams.hb'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'sweepB' for tool 'ams.hb'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'sweep' for tool 'ams.hb'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'sweep2' for tool 'ams.hb'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'sweep3' for tool 'ams.hb'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'loadpullB' for tool 'ams.hb'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'lsspB' for tool 'ams.hb'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'compressionB' for tool 'ams.hb'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'sweeptype' for tool 'ams.qpsp'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'rangeType' for tool 'ams.qpsp'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'rangeType' for tool 'ams.qpxf'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'sbsm' for tool 'ams.qpxf'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'outType' for tool 'ams.qpxf'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'MultiEna' for tool 'ams.qpnoise'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'rangeType' for tool 'ams.qpnoise'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'sbsm' for tool 'ams.qpnoise'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'outType' for tool 'ams.qpnoise'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'inType' for tool 'ams.qpnoise'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'refsbSelect' for tool 'ams.qpnoise'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'rangeType' for tool 'ams.qpac'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'sbsm' for tool 'ams.qpac'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'sweeptype' for tool 'ams.psp'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'rangeType' for tool 'ams.psp'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'special' for tool 'ams.pxf'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'outType' for tool 'ams.pxf'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'rangeType' for tool 'ams.pxf'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'harmonics' for tool 'ams.pxf'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'noisetypeUI' for tool 'ams.pnoise'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'MultiEna' for tool 'ams.pnoise'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'rangeType' for tool 'ams.pnoise'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'harmonics' for tool 'ams.pnoise'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'pnoisemethod' for tool 'ams.pnoise'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'outType' for tool 'ams.pnoise'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'inType' for tool 'ams.pnoise'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'refsbSelect' for tool 'ams.pnoise'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'rangeType' for tool 'ams.pstb'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'special' for tool 'ams.pac'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'rangeType' for tool 'ams.pac'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'harmonics' for tool 'ams.pac'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'engine' for tool 'ams.pss'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'harmonics' for tool 'ams.pss'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'hbhomotopy' for tool 'ams.pss'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'dynParamB' for tool 'ams.pss'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'oscana' for tool 'ams.pss'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'sweepB' for tool 'ams.pss'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'sweep' for tool 'ams.pss'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'sweep2' for tool 'ams.pss'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'sweep3' for tool 'ams.pss'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'loadpullB' for tool 'ams.pss'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'sweep' for tool 'ams.sp'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'rangeType' for tool 'ams.sp'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'donoise' for tool 'ams.sp'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'sweep' for tool 'ams.xf'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'rangeType' for tool 'ams.xf'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'outType' for tool 'ams.xf'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'sweep' for tool 'ams.dc'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'sweep' for tool 'ams.stb'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'rangeType' for tool 'ams.stb'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'method' for tool 'ams.dcmatch'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'outType' for tool 'ams.dcmatch'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'sweep' for tool 'ams.dcmatch'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'outType' for tool 'ams.pz'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'inType' for tool 'ams.pz'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'sweep' for tool 'ams.pz'.
+\o         Its internal default value will be used.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (8 1) on testbench [
+\o           folded_cascode_project:Mosfet_charecterisation:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var L = "700n"
+\o Setting var VBS = "0.75"
+\o Setting var VDS = "0.7"
+\o Setting var VGS = "0.9"
+\o Setting var W = "2u"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.10/1/folded_cascode_project:Mosfet_charecterisation:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.10/1/folded_cascode_project:Mosfet_charecterisation:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (8 1)
+\o 
+\o generate netlist...
+\o Loading seCore.cxt 
+\o Begin Incremental Netlisting Apr 19 08:53:36 2025
+\o End netlisting Apr 19 08:53:36 2025
+\o Loading monte.cxt 
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           folded_cascode_project:Mosfet_charecterisation:1 ] for
+\o           Point ID (8 1).
+\o 
+\o Delete psf data in /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.10/1/folded_cascode_project:Mosfet_charecterisation:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o Loading paraplot.cxt 
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (8 1) on testbench [
+\o           folded_cascode_project:Mosfet_charecterisation:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (8 2) on testbench [
+\o           folded_cascode_project:Mosfet_charecterisation:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var W = "3u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.10/2/folded_cascode_project:Mosfet_charecterisation:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.10/2/folded_cascode_project:Mosfet_charecterisation:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (8 2)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Apr 19 08:53:40 2025
+\o End netlisting Apr 19 08:53:40 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           folded_cascode_project:Mosfet_charecterisation:1 ] for
+\o           Point ID (8 2).
+\o 
+\o Delete psf data in /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.10/2/folded_cascode_project:Mosfet_charecterisation:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (8 2) on testbench [
+\o           folded_cascode_project:Mosfet_charecterisation:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (8 3) on testbench [
+\o           folded_cascode_project:Mosfet_charecterisation:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var W = "4u"
+\# Available memory:         10,065 MB at UTC 2025.04.19 12:53:43.064
+\# Memory report: Maximum memory size now 10,423 MB at UTC 2025.04.19 12:53:43.064
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.10/3/folded_cascode_project:Mosfet_charecterisation:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.10/3/folded_cascode_project:Mosfet_charecterisation:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (8 3)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Apr 19 08:53:43 2025
+\o End netlisting Apr 19 08:53:43 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           folded_cascode_project:Mosfet_charecterisation:1 ] for
+\o           Point ID (8 3).
+\o 
+\o Delete psf data in /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.10/3/folded_cascode_project:Mosfet_charecterisation:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (8 3) on testbench [
+\o           folded_cascode_project:Mosfet_charecterisation:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (8 4) on testbench [
+\o           folded_cascode_project:Mosfet_charecterisation:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var W = "5u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.10/4/folded_cascode_project:Mosfet_charecterisation:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.10/4/folded_cascode_project:Mosfet_charecterisation:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (8 4)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Apr 19 08:53:45 2025
+\o End netlisting Apr 19 08:53:45 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           folded_cascode_project:Mosfet_charecterisation:1 ] for
+\o           Point ID (8 4).
+\o 
+\o Delete psf data in /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.10/4/folded_cascode_project:Mosfet_charecterisation:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (8 4) on testbench [
+\o           folded_cascode_project:Mosfet_charecterisation:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (8 5) on testbench [
+\o           folded_cascode_project:Mosfet_charecterisation:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var W = "6u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.10/5/folded_cascode_project:Mosfet_charecterisation:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.10/5/folded_cascode_project:Mosfet_charecterisation:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (8 5)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Apr 19 08:53:48 2025
+\o End netlisting Apr 19 08:53:48 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           folded_cascode_project:Mosfet_charecterisation:1 ] for
+\o           Point ID (8 5).
+\o 
+\o Delete psf data in /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.10/5/folded_cascode_project:Mosfet_charecterisation:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (8 5) on testbench [
+\o           folded_cascode_project:Mosfet_charecterisation:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (8 6) on testbench [
+\o           folded_cascode_project:Mosfet_charecterisation:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var W = "7u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.10/6/folded_cascode_project:Mosfet_charecterisation:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.10/6/folded_cascode_project:Mosfet_charecterisation:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (8 6)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Apr 19 08:53:51 2025
+\o End netlisting Apr 19 08:53:51 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           folded_cascode_project:Mosfet_charecterisation:1 ] for
+\o           Point ID (8 6).
+\o 
+\o Delete psf data in /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.10/6/folded_cascode_project:Mosfet_charecterisation:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (8 6) on testbench [
+\o           folded_cascode_project:Mosfet_charecterisation:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (8 7) on testbench [
+\o           folded_cascode_project:Mosfet_charecterisation:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var W = "8u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.10/7/folded_cascode_project:Mosfet_charecterisation:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.10/7/folded_cascode_project:Mosfet_charecterisation:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (8 7)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Apr 19 08:53:54 2025
+\o End netlisting Apr 19 08:53:54 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           folded_cascode_project:Mosfet_charecterisation:1 ] for
+\o           Point ID (8 7).
+\o 
+\o Delete psf data in /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.10/7/folded_cascode_project:Mosfet_charecterisation:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (8 7) on testbench [
+\o           folded_cascode_project:Mosfet_charecterisation:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (8 8) on testbench [
+\o           folded_cascode_project:Mosfet_charecterisation:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var W = "9u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.10/8/folded_cascode_project:Mosfet_charecterisation:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.10/8/folded_cascode_project:Mosfet_charecterisation:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (8 8)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Apr 19 08:53:57 2025
+\o End netlisting Apr 19 08:53:57 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           folded_cascode_project:Mosfet_charecterisation:1 ] for
+\o           Point ID (8 8).
+\o 
+\o Delete psf data in /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.10/8/folded_cascode_project:Mosfet_charecterisation:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (8 8) on testbench [
+\o           folded_cascode_project:Mosfet_charecterisation:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (8 9) on testbench [
+\o           folded_cascode_project:Mosfet_charecterisation:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var W = "10u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.10/9/folded_cascode_project:Mosfet_charecterisation:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.10/9/folded_cascode_project:Mosfet_charecterisation:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (8 9)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Apr 19 08:54:00 2025
+\o End netlisting Apr 19 08:54:00 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           folded_cascode_project:Mosfet_charecterisation:1 ] for
+\o           Point ID (8 9).
+\o 
+\o Delete psf data in /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.10/9/folded_cascode_project:Mosfet_charecterisation:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (8 9) on testbench [
+\o           folded_cascode_project:Mosfet_charecterisation:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (8 10) on testbench [
+\o           folded_cascode_project:Mosfet_charecterisation:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var W = "11u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.10/10/folded_cascode_project:Mosfet_charecterisation:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.10/10/folded_cascode_project:Mosfet_charecterisation:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (8 10)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Apr 19 08:54:03 2025
+\o End netlisting Apr 19 08:54:03 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           folded_cascode_project:Mosfet_charecterisation:1 ] for
+\o           Point ID (8 10).
+\o 
+\o Delete psf data in /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.10/10/folded_cascode_project:Mosfet_charecterisation:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (8 10) on testbench [
+\o           folded_cascode_project:Mosfet_charecterisation:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (8 11) on testbench [
+\o           folded_cascode_project:Mosfet_charecterisation:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var W = "12u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.10/11/folded_cascode_project:Mosfet_charecterisation:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.10/11/folded_cascode_project:Mosfet_charecterisation:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (8 11)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Apr 19 08:54:05 2025
+\o End netlisting Apr 19 08:54:05 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           folded_cascode_project:Mosfet_charecterisation:1 ] for
+\o           Point ID (8 11).
+\o 
+\o Delete psf data in /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.10/11/folded_cascode_project:Mosfet_charecterisation:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (8 11) on testbench [
+\o           folded_cascode_project:Mosfet_charecterisation:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (8 12) on testbench [
+\o           folded_cascode_project:Mosfet_charecterisation:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var W = "13u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.10/12/folded_cascode_project:Mosfet_charecterisation:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.10/12/folded_cascode_project:Mosfet_charecterisation:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (8 12)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Apr 19 08:54:08 2025
+\o End netlisting Apr 19 08:54:08 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           folded_cascode_project:Mosfet_charecterisation:1 ] for
+\o           Point ID (8 12).
+\o 
+\o Delete psf data in /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.10/12/folded_cascode_project:Mosfet_charecterisation:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (8 12) on testbench [
+\o           folded_cascode_project:Mosfet_charecterisation:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (8 13) on testbench [
+\o           folded_cascode_project:Mosfet_charecterisation:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var W = "14u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.10/13/folded_cascode_project:Mosfet_charecterisation:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.10/13/folded_cascode_project:Mosfet_charecterisation:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (8 13)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Apr 19 08:54:11 2025
+\o End netlisting Apr 19 08:54:11 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           folded_cascode_project:Mosfet_charecterisation:1 ] for
+\o           Point ID (8 13).
+\o 
+\o Delete psf data in /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.10/13/folded_cascode_project:Mosfet_charecterisation:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (8 13) on testbench [
+\o           folded_cascode_project:Mosfet_charecterisation:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (8 14) on testbench [
+\o           folded_cascode_project:Mosfet_charecterisation:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var W = "15u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.10/14/folded_cascode_project:Mosfet_charecterisation:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.10/14/folded_cascode_project:Mosfet_charecterisation:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (8 14)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Apr 19 08:54:13 2025
+\o End netlisting Apr 19 08:54:13 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           folded_cascode_project:Mosfet_charecterisation:1 ] for
+\o           Point ID (8 14).
+\o 
+\o Delete psf data in /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.10/14/folded_cascode_project:Mosfet_charecterisation:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (8 14) on testbench [
+\o           folded_cascode_project:Mosfet_charecterisation:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (8 15) on testbench [
+\o           folded_cascode_project:Mosfet_charecterisation:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var W = "16u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.10/15/folded_cascode_project:Mosfet_charecterisation:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.10/15/folded_cascode_project:Mosfet_charecterisation:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (8 15)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Apr 19 08:54:16 2025
+\o End netlisting Apr 19 08:54:16 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           folded_cascode_project:Mosfet_charecterisation:1 ] for
+\o           Point ID (8 15).
+\o 
+\o Delete psf data in /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.10/15/folded_cascode_project:Mosfet_charecterisation:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (8 15) on testbench [
+\o           folded_cascode_project:Mosfet_charecterisation:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (8 16) on testbench [
+\o           folded_cascode_project:Mosfet_charecterisation:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var W = "17u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.10/16/folded_cascode_project:Mosfet_charecterisation:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.10/16/folded_cascode_project:Mosfet_charecterisation:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (8 16)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Apr 19 08:54:18 2025
+\o End netlisting Apr 19 08:54:18 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           folded_cascode_project:Mosfet_charecterisation:1 ] for
+\o           Point ID (8 16).
+\o 
+\o Delete psf data in /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.10/16/folded_cascode_project:Mosfet_charecterisation:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (8 16) on testbench [
+\o           folded_cascode_project:Mosfet_charecterisation:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (8 17) on testbench [
+\o           folded_cascode_project:Mosfet_charecterisation:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var W = "18u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.10/17/folded_cascode_project:Mosfet_charecterisation:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.10/17/folded_cascode_project:Mosfet_charecterisation:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (8 17)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Apr 19 08:54:21 2025
+\o End netlisting Apr 19 08:54:21 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           folded_cascode_project:Mosfet_charecterisation:1 ] for
+\o           Point ID (8 17).
+\o 
+\o Delete psf data in /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.10/17/folded_cascode_project:Mosfet_charecterisation:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (8 17) on testbench [
+\o           folded_cascode_project:Mosfet_charecterisation:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (8 18) on testbench [
+\o           folded_cascode_project:Mosfet_charecterisation:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var W = "19u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.10/18/folded_cascode_project:Mosfet_charecterisation:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.10/18/folded_cascode_project:Mosfet_charecterisation:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (8 18)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Apr 19 08:54:23 2025
+\o End netlisting Apr 19 08:54:23 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           folded_cascode_project:Mosfet_charecterisation:1 ] for
+\o           Point ID (8 18).
+\o 
+\o Delete psf data in /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.10/18/folded_cascode_project:Mosfet_charecterisation:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (8 18) on testbench [
+\o           folded_cascode_project:Mosfet_charecterisation:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (8 19) on testbench [
+\o           folded_cascode_project:Mosfet_charecterisation:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var W = "20u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.10/19/folded_cascode_project:Mosfet_charecterisation:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.10/19/folded_cascode_project:Mosfet_charecterisation:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (8 19)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Apr 19 08:54:26 2025
+\o End netlisting Apr 19 08:54:26 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           folded_cascode_project:Mosfet_charecterisation:1 ] for
+\o           Point ID (8 19).
+\o 
+\o Delete psf data in /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.10/19/folded_cascode_project:Mosfet_charecterisation:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (8 19) on testbench [
+\o           folded_cascode_project:Mosfet_charecterisation:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o Job 4 timed out after no activity in 300 seconds.
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\p > 

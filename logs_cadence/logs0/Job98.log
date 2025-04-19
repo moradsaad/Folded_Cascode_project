@@ -1,0 +1,27 @@
+*Info*    Exporting services from client ... 
+
+*Info*    Client has finished starting ... 
+
+
+
+*Info*    Configuring the session ...
+
+	Library      = folded_cascode_project
+	Cell         = Mosfet_charecterisation
+	View         = schematic
+	Simulator    = spectre
+	State Path   = $AXL_SETUPDB_DIR/test_states
+	State Name   = folded_cascode_project:Mosfet_charecterisation:1_none_Interactive.82
+	Results DB   = /home/cadence/Desktop/user2/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.82.rdb
+	Results Dir  = /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.82/1/folded_cascode_project:Mosfet_charecterisation:1
+	Results Loc  = /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data
+	Project Dir  = /home/cadence/simulation
+	Setup DB loc = /home/cadence/Desktop/user2/folded_cascode_project/Mosfet_charecterisation/adexl
+	File Encoding = 0
+
+
+*Info*    Spectre controlMode is set "batch".
+
+Simulation design variables differ from those on the cellView,
+they have been saved in the file "/tmp/saved-design-variables".
+To save future changes, copy variables to cellView before exiting.

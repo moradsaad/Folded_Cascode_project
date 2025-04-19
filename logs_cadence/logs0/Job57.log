@@ -1,0 +1,114 @@
+*Info*    Exporting services from client ... 
+
+*Info*    Client has finished starting ... 
+
+
+
+*Info*    Configuring the session ...
+
+	Library      = folded_cascode_project
+	Cell         = Mosfet_charecterisation
+	View         = schematic
+	Simulator    = spectre
+	State Path   = $AXL_SETUPDB_DIR/test_states
+	State Name   = folded_cascode_project:Mosfet_charecterisation:1_none_Interactive.53
+	Results DB   = /home/cadence/Desktop/user2/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.53.rdb
+	Results Dir  = /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.53/1/folded_cascode_project:Mosfet_charecterisation:1
+	Results Loc  = /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data
+	Project Dir  = /home/cadence/simulation
+	Setup DB loc = /home/cadence/Desktop/user2/folded_cascode_project/Mosfet_charecterisation/adexl
+	File Encoding = 0
+
+
+*Info*    Spectre controlMode is set "batch".
+
+
+
+
+
+
+*Info*    Run start for Point ID (51 1) on testbench [
+          folded_cascode_project:Mosfet_charecterisation:1 ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting var L = "1.5u"
+Setting var VBS = "0.5"
+Setting var VDS = "0.9"
+Setting var VGS = "0.44"
+Setting var W = "1u"
+Setting temp(T) = 27
+
+*Info*    Netlist Directory =
+          /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.53/1/folded_cascode_project:Mosfet_charecterisation:1/netlist
+
+
+*Info*    Data Directory    =
+          /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.53/1/folded_cascode_project:Mosfet_charecterisation:1
+
+
+*Info*    Creating Netlist for Point ID (51 1)
+
+generate netlist...
+Begin Incremental Netlisting Apr 19 12:06:20 2025
+End netlisting Apr 19 12:06:20 2025
+
+	The netlist is up to date.
+	Time taken to compare the design with netlist:   0.0s
+      ...successful.
+compose simulator input file...
+      ...successful.
+
+*Info*    Running simulation on testbench [
+          folded_cascode_project:Mosfet_charecterisation:1 ] for
+          Point ID (51 1).
+
+Delete psf data in /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.53/1/folded_cascode_project:Mosfet_charecterisation:1/psf.
+compose simulator input file...
+      ...successful.
+start simulator if needed...
+      ...successful.
+simulate...
+To view the simulator output, right-click on the test name, result 
+name, or any value in the "Results" tab of the Outputs section and 
+choose "Output Log" menu option.
+INFO (ADE-3072): Simulation is stopped by user. Simulation results may not be complete.
+ERROR (ADE-3036): Errors encountered during simulation. The simulator run log has not been generated.
+        Possible cause could be an invalid command line option for the version of the simulator
+        you are running. Choose Setup->Environment and verify that the command line options
+        specified in the userCmdLineOption field are supported for the simulator.
+        Alternatively, run the simulator standalone using the runSimulation file in the netlist
+        directory to know the exact cause of the error.
+
+*Error*   Error ID  = 5011
+*Error*   Error Msg = Simulator failed to complete the simulation.
+
+          The simulator process returned a non-zero exit code -1,
+          indicating failure.
+The simulator could have crashed or
+          intentionally returned to indicate an error.
+Check the
+          simulator log file for more information.  Common causes:
+1.
+          Simulator may have crashed during exit even after reporting
+          success in log file.
+2. Abrupt automatic simulator
+          termination (e.g., SIGKILL) because the simulator process
+          has
+   exceeded resource limits, which can be specified in
+          the distribution system or
+   by the kernel itself (e.g.,
+          the Linux OOMKiller).
+3. Manual termination of the
+          simulator process.
+./runSimulation can be manually run in
+          this directory to check the issue.
+
+
+
+
+Simulation design variables differ from those on the cellView,
+they have been saved in the file "/tmp/saved-design-variables".
+To save future changes, copy variables to cellView before exiting.

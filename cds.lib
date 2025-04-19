@@ -14,4 +14,4 @@ DEFINE diff_amp /home/cadence/tsmc65nm/diff_amp
 #Removed by ddDeleteObj: DEFINE super_cascode_initial /home/cadence/tsmc65nm/super_cascode_initial
 #Removed by ddDeleteObj: DEFINE super_cascode_project_55 super_cascode_project_55
 DEFINE tsmcN65 /home/cadence/tsmc65nm/tsmcN65
-DEFINE folded_cascode_project /home/cadence/Desktop/folded_cascode_project/folded_cascode_project
+DEFINE folded_cascode_project ./folded_cascode_project

@@ -1,0 +1,18 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Sun Apr 20 11:33:22 2025 
+Best design point: 1
+Design specs: 
+	folded_cascode_project:opamp_TB_ClosedLoop:1	corner	Nominal - 
+	SR		Error	No
+Design parameters: 
+	VB2		1.73
+	VB3		1.65
+	Vincm		1.65
+	Vind		1
+
+Interactive.10
+Number of points completed: 1
+Number of simulation errors: 1
+Interactive.10 completed. 
+Current time: Sun Apr 20 11:33:35 2025 

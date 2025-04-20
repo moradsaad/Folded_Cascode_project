@@ -1,0 +1,22 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Sun Apr 20 10:31:22 2025 
+Best design point: 1
+Design specs: 
+	folded_cascode_project:Mosfet_charecterisation:1	corner	Nominal - 
+	cgg		751.3f
+	gm		643.1u
+	ids op		42.26u
+	rout		1.159M
+Design parameters: 
+	L		2u
+	VBS		800m
+	VDS		1.8
+	VGS		822m
+	W		95u
+
+Interactive.142
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.142 completed. 
+Current time: Sun Apr 20 10:31:31 2025 

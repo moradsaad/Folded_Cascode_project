@@ -11,12 +11,12 @@
 	View         = schematic
 	Simulator    = spectre
 	State Path   = $AXL_SETUPDB_DIR/test_states
-	State Name   = folded_cascode_project:opamp_TB_ClosedLoop:1_none_Interactive.4
-	Results DB   = /home/cadence/folded_cascode_project/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.4.rdb
-	Results Dir  = /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.4/1/folded_cascode_project:opamp_TB_ClosedLoop:1
+	State Name   = folded_cascode_project:opamp_TB_ClosedLoop:1_none_Interactive.94
+	Results DB   = /home/cadence/Desktop/user2/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.94.rdb
+	Results Dir  = /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.94/1/folded_cascode_project:opamp_TB_ClosedLoop:1
 	Results Loc  = /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data
 	Project Dir  = /home/cadence/simulation
-	Setup DB loc = /home/cadence/folded_cascode_project/folded_cascode_project/opamp_TB_ClosedLoop/adexl
+	Setup DB loc = /home/cadence/Desktop/user2/folded_cascode_project/opamp_TB_ClosedLoop/adexl
 	File Encoding = 0
 
 
@@ -34,31 +34,28 @@ Resetting statistical vars
 
 *Info*    Setting parameter values ...
 
-Setting var VB2 = "1.73"
-Setting var VB3 = "1.65"
+Setting var VB2 = "1.27"
+Setting var VB3 = "1.27"
 Setting var Vincm = "1.65"
 Setting var Vind = "1"
 Setting temp(T) = 27
 
 *Info*    Netlist Directory =
-          /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.4/1/folded_cascode_project:opamp_TB_ClosedLoop:1/netlist
+          /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.94/1/folded_cascode_project:opamp_TB_ClosedLoop:1/netlist
 
 
 *Info*    Data Directory    =
-          /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.4/1/folded_cascode_project:opamp_TB_ClosedLoop:1
+          /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.94/1/folded_cascode_project:opamp_TB_ClosedLoop:1
 
 
 *Info*    Creating Netlist for Point ID (1 1)
 
 generate netlist...
-Begin Incremental Netlisting Apr 20 10:22:09 2025
-End netlisting Apr 20 10:22:09 2025
+Begin Incremental Netlisting Apr 21 06:43:29 2025
+End netlisting Apr 21 06:43:29 2025
 
-Netlisting Statistics:
-	Number of components:   14
-
-	Elapsed time:          0.0s
-Errors: 0	Warnings: 0
+	The netlist is up to date.
+	Time taken to compare the design with netlist:   0.0s
       ...successful.
 compose simulator input file...
       ...successful.
@@ -67,7 +64,7 @@ compose simulator input file...
           folded_cascode_project:opamp_TB_ClosedLoop:1 ] for Point ID
           (1 1).
 
-Delete psf data in /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.4/1/folded_cascode_project:opamp_TB_ClosedLoop:1/psf.
+Delete psf data in /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.94/1/folded_cascode_project:opamp_TB_ClosedLoop:1/psf.
 compose simulator input file...
       ...successful.
 start simulator if needed...
@@ -80,6 +77,42 @@ INFO (ADE-3071): Simulation completed successfully.
 reading simulation data...
       ...successful.
 *Info*    Client has finished evaluating ... 
+
+ERROR (ADEXL-2709): Evaluation of output 'trise' returned 'nil' for point:'1' test:'folded_cascode_project:opamp_TB_ClosedLoop:1'
+	Expression:'riseTime(VT("/Vout") 0.9 nil 2.4 nil 10 90 nil "time")'.
+Ensure that the definition of output is correct.
+
+WARNING (OCN-6038): Results ac are not available for /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.94/1/folded_cascode_project:opamp_TB_ClosedLoop:1. Use results() for a list of available results.
+WARNING (OCN-6038): Results ac are not available for /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.94/1/folded_cascode_project:opamp_TB_ClosedLoop:1. Use results() for a list of available results.
+ERROR (ADEXL-2709): Evaluation of output 'Acl' returned 'nil' for point:'1' test:'folded_cascode_project:opamp_TB_ClosedLoop:1'
+	Expression:'dB20(mag(v("/Vout" ?result "ac")))'.
+Ensure that the definition of output is correct.
+
+WARNING (OCN-6038): Results ac are not available for /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.94/1/folded_cascode_project:opamp_TB_ClosedLoop:1. Use results() for a list of available results.
+WARNING (OCN-6038): Results ac are not available for /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.94/1/folded_cascode_project:opamp_TB_ClosedLoop:1. Use results() for a list of available results.
+ERROR (ADEXL-2709): Evaluation of output 'BWcl' returned 'nil' for point:'1' test:'folded_cascode_project:opamp_TB_ClosedLoop:1'
+	Expression:'bandwidth(v("/Vout" ?result "ac") 3 "low")'.
+Ensure that the definition of output is correct.
+
+ERROR (ADEXL-2709): Evaluation of output 'slew rate' returned 'nil' for point:'1' test:'folded_cascode_project:opamp_TB_ClosedLoop:1'
+	Expression:'slewRate(VT("/Vout") 1 nil 2.4 nil 1 90 nil "time")'.
+Ensure that the definition of output is correct.
+
+ERROR (ADEXL-2709): Evaluation of output 'tsettle' returned 'nil' for point:'1' test:'folded_cascode_project:opamp_TB_ClosedLoop:1'
+	Expression:'settlingTime(VT("/Vout") 0.9 nil 2.4 nil 2 nil "time")'.
+Ensure that the definition of output is correct.
+
+WARNING (OCN-6038): Results stb_margin are not available for /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.94/1/folded_cascode_project:opamp_TB_ClosedLoop:1. Use results() for a list of available results.
+WARNING (OCN-6038): Results stb_margin are not available for /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.94/1/folded_cascode_project:opamp_TB_ClosedLoop:1. Use results() for a list of available results.
+ERROR (ADEXL-2709): Evaluation of output 'PM' returned 'nil' for point:'1' test:'folded_cascode_project:opamp_TB_ClosedLoop:1'
+	Expression:'getData("/phaseMargin" ?result "stb_margin")'.
+Ensure that the definition of output is correct.
+
+WARNING (OCN-6038): Results ac are not available for /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.94/1/folded_cascode_project:opamp_TB_ClosedLoop:1. Use results() for a list of available results.
+WARNING (OCN-6038): Results ac are not available for /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.94/1/folded_cascode_project:opamp_TB_ClosedLoop:1. Use results() for a list of available results.
+ERROR (ADEXL-2709): Evaluation of output 'GBW' returned 'nil' for point:'1' test:'folded_cascode_project:opamp_TB_ClosedLoop:1'
+	Expression:'gainBwProd(v("/Vout" ?result "ac"))'.
+Ensure that the definition of output is correct.
 
 
 *Info*    Run complete for Point ID (1 1) on testbench [

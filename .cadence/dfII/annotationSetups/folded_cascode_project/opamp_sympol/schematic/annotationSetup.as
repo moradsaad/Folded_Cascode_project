@@ -1,5 +1,5 @@
 Design:folded_cascode_project opamp_sympol schematic
-annInstExceptionList:tsmcN65 nch_25od33_mac *,M3,tsmcN65 pch_25od33_mac *
+annInstExceptionList:tsmcN65 nch_25od33_mac *,tsmcN65 pch_25od33_mac *
 
 Instance:tsmcN65 nch_25od33_mac *
 cdsName:
@@ -8,7 +8,7 @@ cdsTerm:
 B current annotate?:true
 B current balloon?:true
 B current displayType:DC
-B display mode:netName
+B display mode:voltage
 B netName annotate?:true
 B netName balloon?:true
 B netName displayType:schematic
@@ -25,7 +25,7 @@ B voltageCurrent displayType:DC
 D current annotate?:true
 D current balloon?:true
 D current displayType:DC
-D display mode:netName
+D display mode:voltage
 D netName annotate?:true
 D netName balloon?:true
 D netName displayType:schematic
@@ -42,7 +42,7 @@ D voltageCurrent displayType:DC
 G current annotate?:true
 G current balloon?:true
 G current displayType:DC
-G display mode:netName
+G display mode:voltage
 G netName annotate?:true
 G netName balloon?:true
 G netName displayType:schematic
@@ -59,7 +59,7 @@ G voltageCurrent displayType:DC
 S current annotate?:true
 S current balloon?:true
 S current displayType:DC
-S display mode:netName
+S display mode:voltage
 S netName annotate?:true
 S netName balloon?:true
 S netName displayType:schematic
@@ -92,27 +92,33 @@ cdsParam:
 10 dbLabel :false
 10 display mode:opPoint
 10 model annotate?:false
-10 model balloon?:true
 10 none annotate?:false
 10 opPoint annotate?:false
 10 opPoint balloon?:true
 10 opPoint displayType:DC
 10 opPoint label:cdd
 10 parameter annotate?:false
-10 parameter balloon?:true
-10 parameter displayType:t nil nil nil nil
 11 dbLabel :false
 11 display mode:opPoint
 11 model annotate?:false
-11 model balloon?:true
 11 none annotate?:false
 11 opPoint annotate?:false
 11 opPoint balloon?:true
 11 opPoint displayType:DC
 11 opPoint label:cgs
 11 parameter annotate?:false
-11 parameter balloon?:true
-11 parameter displayType:t nil nil nil nil
+12 dbLabel :false
+12 display mode:opPoint
+12 model annotate?:false
+12 model balloon?:true
+12 none annotate?:false
+12 opPoint annotate?:false
+12 opPoint balloon?:true
+12 opPoint displayType:DC
+12 opPoint label:vth
+12 parameter annotate?:false
+12 parameter balloon?:true
+12 parameter displayType:t nil nil nil nil
 2 dbLabel :true
 2 display mode:opPoint
 2 model annotate?:true
@@ -153,7 +159,7 @@ cdsParam:
 4 opPoint annotate?:true
 4 opPoint balloon?:true
 4 opPoint displayType:DC
-4 opPoint label:vth
+4 opPoint label:region
 4 parameter annotate?:true
 4 parameter balloon?:true
 4 parameter displayType:t nil nil nil nil
@@ -221,15 +227,12 @@ cdsParam:
 9 dbLabel :false
 9 display mode:opPoint
 9 model annotate?:false
-9 model balloon?:true
 9 none annotate?:false
 9 opPoint annotate?:false
 9 opPoint balloon?:true
 9 opPoint displayType:DC
 9 opPoint label:cgg
 9 parameter annotate?:false
-9 parameter balloon?:true
-9 parameter displayType:t nil nil nil nil
 
 Instance:tsmcN65 pch_25od33_mac *
 cdsName:
@@ -238,7 +241,7 @@ cdsTerm:
 B current annotate?:true
 B current balloon?:true
 B current displayType:DC
-B display mode:netName
+B display mode:voltage
 B netName annotate?:true
 B netName balloon?:true
 B netName displayType:schematic
@@ -255,7 +258,7 @@ B voltageCurrent displayType:DC
 D current annotate?:true
 D current balloon?:true
 D current displayType:DC
-D display mode:netName
+D display mode:voltage
 D netName annotate?:true
 D netName balloon?:true
 D netName displayType:schematic
@@ -272,7 +275,7 @@ D voltageCurrent displayType:DC
 G current annotate?:true
 G current balloon?:true
 G current displayType:DC
-G display mode:netName
+G display mode:voltage
 G netName annotate?:true
 G netName balloon?:true
 G netName displayType:schematic
@@ -289,7 +292,7 @@ G voltageCurrent displayType:DC
 S current annotate?:true
 S current balloon?:true
 S current displayType:DC
-S display mode:netName
+S display mode:voltage
 S netName annotate?:true
 S netName balloon?:true
 S netName displayType:schematic
@@ -322,15 +325,12 @@ cdsParam:
 10 dbLabel :false
 10 display mode:opPoint
 10 model annotate?:false
-10 model balloon?:true
 10 none annotate?:false
 10 opPoint annotate?:false
 10 opPoint balloon?:true
 10 opPoint displayType:DC
 10 opPoint label:cdd
 10 parameter annotate?:false
-10 parameter balloon?:true
-10 parameter displayType:t nil nil nil nil
 2 dbLabel :true
 2 display mode:opPoint
 2 model annotate?:true
@@ -371,7 +371,7 @@ cdsParam:
 4 opPoint annotate?:true
 4 opPoint balloon?:true
 4 opPoint displayType:DC
-4 opPoint label:vth
+4 opPoint label:region
 4 parameter annotate?:true
 4 parameter balloon?:true
 4 parameter displayType:t nil nil nil nil
@@ -439,21 +439,12 @@ cdsParam:
 9 dbLabel :false
 9 display mode:opPoint
 9 model annotate?:false
-9 model balloon?:true
 9 none annotate?:false
 9 opPoint annotate?:false
 9 opPoint balloon?:true
 9 opPoint displayType:DC
 9 opPoint label:cgg
 9 parameter annotate?:false
-9 parameter balloon?:true
-9 parameter displayType:t nil nil nil nil
-
-Instance:basic ipin PIN2
-cdsName:
-instName schematic true true
-cdsTerm:
-cdsParam:
 
 Instance:* * *
 cdsName:
@@ -462,7 +453,7 @@ cdsTerm:
  current annotate?:true
  current balloon?:true
  current displayType:DC
- display mode:none
+ display mode:voltage
  netName annotate?:true
  netName balloon?:true
  netName displayType:schematic
@@ -494,12 +485,6 @@ cdsParam:
  parameter displayType:none
  parameter label:none
 
-Instance:basic opin PIN4
-cdsName:
-instName schematic true true
-cdsTerm:
-cdsParam:
-
 Instance:analogLib * *
 cdsName:
 instName schematic true true
@@ -507,7 +492,46 @@ cdsTerm:
  current annotate?:true
  current balloon?:true
  current displayType:DC
- display mode:none
+ display mode:voltage
+ netName annotate?:true
+ netName balloon?:true
+ netName displayType:schematic
+ none annotate?:true
+ none balloon?:true
+ pinName annotate?:true
+ pinName balloon?:true
+ voltage annotate?:true
+ voltage balloon?:true
+ voltage displayType:DC
+ voltageCurrent annotate?:true
+ voltageCurrent balloon?:true
+ voltageCurrent displayType:DC
+cdsParam:
+ dbLabel :true
+ display mode:opPoint
+ model annotate?:true
+ model balloon?:true
+ model label:none
+ none annotate?:true
+ none balloon?:true
+ none label:
+ opPoint annotate?:true
+ opPoint balloon?:true
+ opPoint displayType:DC
+ opPoint label:none
+ parameter annotate?:true
+ parameter balloon?:true
+ parameter displayType:t nil nil nil nil
+ parameter label:none
+
+Instance:tsmcN65 * *
+cdsName:
+instName schematic true true
+cdsTerm:
+ current annotate?:true
+ current balloon?:true
+ current displayType:DC
+ display mode:voltage
  netName annotate?:true
  netName balloon?:true
  netName displayType:schematic
@@ -540,63 +564,6 @@ cdsParam:
  parameter label:none
 
 Instance:basic ipin PIN6
-cdsName:
-instName schematic true true
-cdsTerm:
-cdsParam:
-
-Instance:basic iopin PIN0
-cdsName:
-instName schematic true true
-cdsTerm:
-cdsParam:
-
-Instance:tsmcN65 * *
-cdsName:
-instName schematic true true
-cdsTerm:
- current annotate?:true
- current balloon?:true
- current displayType:DC
- display mode:netName
- netName annotate?:true
- netName balloon?:true
- netName displayType:schematic
- none annotate?:true
- none balloon?:true
- pinName annotate?:true
- pinName balloon?:true
- voltage annotate?:true
- voltage balloon?:true
- voltage displayType:DC
- voltageCurrent annotate?:true
- voltageCurrent balloon?:true
- voltageCurrent displayType:DC
-cdsParam:
- dbLabel :true
- display mode:opPoint
- model annotate?:true
- model balloon?:true
- model label:none
- none annotate?:true
- none balloon?:true
- none label:
- opPoint annotate?:true
- opPoint balloon?:true
- opPoint displayType:DC
- opPoint label:none
- parameter annotate?:true
- parameter balloon?:true
- parameter displayType:t nil nil nil nil
- parameter label:none
-
-Instance:basic ipin PIN7
-cdsName:
-instName schematic true true
-cdsTerm:
-cdsParam:
-
-Instance:basic iopin PIN1
 cdsName:
 instName schematic true true
 cdsTerm:

@@ -11,9 +11,9 @@
 	View         = schematic
 	Simulator    = spectre
 	State Path   = $AXL_SETUPDB_DIR/test_states
-	State Name   = folded_cascode_project:Mosfet_charecterisation:1_none_Interactive.63
-	Results DB   = /home/cadence/Desktop/user2/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.63.rdb
-	Results Dir  = /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.63/1/folded_cascode_project:Mosfet_charecterisation:1
+	State Name   = folded_cascode_project:Mosfet_charecterisation:1_none_Interactive.164
+	Results DB   = /home/cadence/Desktop/user2/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.164.rdb
+	Results Dir  = /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.164/1/folded_cascode_project:Mosfet_charecterisation:1
 	Results Loc  = /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data
 	Project Dir  = /home/cadence/simulation
 	Setup DB loc = /home/cadence/Desktop/user2/folded_cascode_project/Mosfet_charecterisation/adexl
@@ -27,33 +27,33 @@
 
 
 
-*Info*    Run start for Point ID (61 1) on testbench [
+*Info*    Run start for Point ID (3 1) on testbench [
           folded_cascode_project:Mosfet_charecterisation:1 ].
 
 Resetting statistical vars
 
 *Info*    Setting parameter values ...
 
-Setting var L = "1.5u"
-Setting var VBS = "0.5"
-Setting var VDS = "0.9"
-Setting var VGS = "0.74"
-Setting var W = "1u"
+Setting var L = "500n"
+Setting var VBS = "0"
+Setting var VDS = "0.5"
+Setting var VGS = "0.75"
+Setting var W = "15u"
 Setting temp(T) = 27
 
 *Info*    Netlist Directory =
-          /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.63/1/folded_cascode_project:Mosfet_charecterisation:1/netlist
+          /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.164/1/folded_cascode_project:Mosfet_charecterisation:1/netlist
 
 
 *Info*    Data Directory    =
-          /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.63/1/folded_cascode_project:Mosfet_charecterisation:1
+          /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.164/1/folded_cascode_project:Mosfet_charecterisation:1
 
 
-*Info*    Creating Netlist for Point ID (61 1)
+*Info*    Creating Netlist for Point ID (3 1)
 
 generate netlist...
-Begin Incremental Netlisting Apr 19 12:19:26 2025
-End netlisting Apr 19 12:19:26 2025
+Begin Incremental Netlisting Apr 21 05:57:10 2025
+End netlisting Apr 21 05:57:10 2025
 
 	The netlist is up to date.
 	Time taken to compare the design with netlist:   0.0s
@@ -63,9 +63,9 @@ compose simulator input file...
 
 *Info*    Running simulation on testbench [
           folded_cascode_project:Mosfet_charecterisation:1 ] for
-          Point ID (61 1).
+          Point ID (3 1).
 
-Delete psf data in /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.63/1/folded_cascode_project:Mosfet_charecterisation:1/psf.
+Delete psf data in /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.164/1/folded_cascode_project:Mosfet_charecterisation:1/psf.
 compose simulator input file...
       ...successful.
 start simulator if needed...
@@ -79,8 +79,62 @@ reading simulation data...
       ...successful.
 *Info*    Client has finished evaluating ... 
 
+ERROR (ADEXL-2708): Evaluation of output 'rout Vs. vgs PMOS' failed for point:'1' test:'folded_cascode_project:Mosfet_charecterisation:1'
+	Expression:'waveVsWave(?x (getData("M1:gm" ?result "dc") / (getData("M1:ids" ?result "dc") * -1)) ?y getData("M1:rout" ?result "dc"))'
+	because of the following error(s)
+	*Error* times: can't handle (nil * -1).
+Ensure that the definition of output is correct.
 
-*Info*    Run complete for Point ID (61 1) on testbench [
+ERROR (ADEXL-2708): Evaluation of output 'ids Vs. gm/ids' failed for point:'1' test:'folded_cascode_project:Mosfet_charecterisation:1'
+	Expression:'waveVsWave(?x (getData("M1:gm" ?result "dc") / (getData("M1:ids" ?result "dc") * -1)) ?y (getData("M1:ids" ?result "dc") * -1))'
+	because of the following error(s)
+	*Error* times: can't handle (nil * -1).
+Ensure that the definition of output is correct.
+
+ERROR (ADEXL-2709): Evaluation of output 'gm PMos' returned 'nil' for point:'1' test:'folded_cascode_project:Mosfet_charecterisation:1'
+	Expression:'getData("M1:gm" ?result "dcOp")'.
+Ensure that the definition of output is correct.
+
+ERROR (ADEXL-2709): Evaluation of output 'cgg P' returned 'nil' for point:'1' test:'folded_cascode_project:Mosfet_charecterisation:1'
+	Expression:'getData("M1:cgg" ?result "dcOp")'.
+Ensure that the definition of output is correct.
+
+ERROR (ADEXL-2708): Evaluation of output 'vgs PMOS' failed for point:'1' test:'folded_cascode_project:Mosfet_charecterisation:1'
+	Expression:'(getData("M1:vgs" ?result "dcOp") * -1)'
+	because of the following error(s)
+	*Error* times: can't handle (nil * -1).
+Ensure that the definition of output is correct.
+
+ERROR (ADEXL-2709): Evaluation of output 'rout op' returned 'nil' for point:'1' test:'folded_cascode_project:Mosfet_charecterisation:1'
+	Expression:'getData("M1:rout" ?result "dcOp")'.
+Ensure that the definition of output is correct.
+
+ERROR (ADEXL-2708): Evaluation of output 'ft PMOS' failed for point:'1' test:'folded_cascode_project:Mosfet_charecterisation:1'
+	Expression:'waveVsWave(?x (getData("M1:gm" ?result "dc") / (getData("M1:ids" ?result "dc") * -1)) ?y (getData("M1:gm" ?result "dc") / (2 * pi * getData("M1:cgg" ?result "dc"))))'
+	because of the following error(s)
+	*Error* times: can't handle (nil * -1).
+Ensure that the definition of output is correct.
+
+ERROR (ADEXL-2708): Evaluation of output 'ids PMos' failed for point:'1' test:'folded_cascode_project:Mosfet_charecterisation:1'
+	Expression:'(getData("M1:id" ?result "dcOp") * -1)'
+	because of the following error(s)
+	*Error* times: can't handle (nil * -1).
+Ensure that the definition of output is correct.
+
+ERROR (ADEXL-2708): Evaluation of output 'gm*ro Vs gm/id PMOS' failed for point:'1' test:'folded_cascode_project:Mosfet_charecterisation:1'
+	Expression:'waveVsWave(?x (getData("M1:gm" ?result "dc") / (getData("M1:ids" ?result "dc") * -1)) ?y (getData("M1:gm" ?result "dc") * getData("M1:rout" ?result "dc")))'
+	because of the following error(s)
+	*Error* times: can't handle (nil * -1).
+Ensure that the definition of output is correct.
+
+ERROR (ADEXL-2708): Evaluation of output 'vgs Vs. gm/id PMOS' failed for point:'1' test:'folded_cascode_project:Mosfet_charecterisation:1'
+	Expression:'waveVsWave(?x (getData("M1:gm" ?result "dc") / (getData("M1:ids" ?result "dc") * -1)) ?y (-1 * getData("M1:vgs" ?result "dc")))'
+	because of the following error(s)
+	*Error* times: can't handle (nil * -1).
+Ensure that the definition of output is correct.
+
+
+*Info*    Run complete for Point ID (3 1) on testbench [
           folded_cascode_project:Mosfet_charecterisation:1 ].
 
 

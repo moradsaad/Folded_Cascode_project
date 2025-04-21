@@ -51,7 +51,7 @@
 					</option>
 				</origoptions>
 				<outputs>
-					<output>cgg
+					<output>cdd
 						<evalType>point</evalType>
 					</output>
 					<output>getData("M0:ids" ?result "dc")
@@ -69,7 +69,7 @@
 					<output>(getData("M0:gm" ?result "dcOp") * getData("M0:rout" ?result "dcOp"))
 						<evalType>point</evalType>
 					</output>
-					<output>rout
+					<output>rout Op
 						<evalType>point</evalType>
 					</output>
 					<output>cgg P
@@ -102,36 +102,45 @@
 					<output>vgs PMOS
 						<evalType>point</evalType>
 					</output>
+					<output>Vdsat
+						<evalType>point</evalType>
+					</output>
+					<output>Vdsat vs gm /id
+						<evalType>point</evalType>
+					</output>
+					<output>Vdsat OP
+						<evalType>point</evalType>
+					</output>
 				</outputs>
 			</test>
 		</tests>
 		<vars>
 			<var>L
-				<value>400n</value>
+				<value>500n</value>
 				<dependentTests>
 					<dependentTest omitted="0">folded_cascode_project:Mosfet_charecterisation:1</dependentTest>
 				</dependentTests>
 			</var>
 			<var>VBS
-				<value>0.7</value>
+				<value>0</value>
 				<dependentTests>
 					<dependentTest omitted="0">folded_cascode_project:Mosfet_charecterisation:1</dependentTest>
 				</dependentTests>
 			</var>
 			<var>VDS
-				<value>0.9</value>
+				<value>0.25</value>
 				<dependentTests>
 					<dependentTest omitted="0">folded_cascode_project:Mosfet_charecterisation:1</dependentTest>
 				</dependentTests>
 			</var>
 			<var>VGS
-				<value>0.94</value>
+				<value>0.77</value>
 				<dependentTests>
 					<dependentTest omitted="0">folded_cascode_project:Mosfet_charecterisation:1</dependentTest>
 				</dependentTests>
 			</var>
 			<var>W
-				<value>14.5u</value>
+				<value>14u</value>
 				<dependentTests>
 					<dependentTest omitted="0">folded_cascode_project:Mosfet_charecterisation:1</dependentTest>
 				</dependentTests>
@@ -151,7 +160,7 @@
 		</plottingoptions>
 	</active>
 	<history>History
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.138
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.163
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -185,7 +194,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>folded_cascode_project:Mosfet_charecterisation:1_none_Interactive.138</value>
+								<value>folded_cascode_project:Mosfet_charecterisation:1_none_Interactive.163</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -203,7 +212,7 @@
 							</option>
 						</origoptions>
 						<outputs>
-							<output>cgg
+							<output>cdd
 								<evalType>point</evalType>
 							</output>
 							<output>getData("M0:ids" ?result "dc")
@@ -221,7 +230,7 @@
 							<output>(getData("M0:gm" ?result "dcOp") * getData("M0:rout" ?result "dcOp"))
 								<evalType>point</evalType>
 							</output>
-							<output>rout
+							<output>rout Op
 								<evalType>point</evalType>
 							</output>
 							<output>cgg P
@@ -254,12 +263,21 @@
 							<output>vgs PMOS
 								<evalType>point</evalType>
 							</output>
+							<output>Vdsat
+								<evalType>point</evalType>
+							</output>
+							<output>Vdsat vs gm /id
+								<evalType>point</evalType>
+							</output>
+							<output>Vdsat OP
+								<evalType>point</evalType>
+							</output>
 						</outputs>
 					</test>
 				</tests>
 				<vars>
 					<var>L
-						<value>1u</value>
+						<value>500n</value>
 						<dependentTests>
 							<dependentTest omitted="0">folded_cascode_project:Mosfet_charecterisation:1</dependentTest>
 						</dependentTests>
@@ -271,19 +289,19 @@
 						</dependentTests>
 					</var>
 					<var>VDS
-						<value>2.2</value>
+						<value>0.85</value>
 						<dependentTests>
 							<dependentTest omitted="0">folded_cascode_project:Mosfet_charecterisation:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>VGS
-						<value>0.79</value>
+						<value>0.75</value>
 						<dependentTests>
 							<dependentTest omitted="0">folded_cascode_project:Mosfet_charecterisation:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>W
-						<value>30u</value>
+						<value>15u</value>
 						<dependentTests>
 							<dependentTest omitted="0">folded_cascode_project:Mosfet_charecterisation:1</dependentTest>
 						</dependentTests>
@@ -303,22 +321,23 @@
 				</plottingoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Sat Apr 19 14:17:58 2025</timestamp>
-			<resultsname>/home/cadence/Desktop/user2/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.138.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.138.rdb</simresults>
+			<timestamp>Mon Apr 21 05:55:22 2025
+</timestamp>
+			<resultsname>/home/cadence/Desktop/user2/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.163.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.163.rdb</simresults>
 			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/berkeley_cadence_141758567</localpsfdir>
-			<psfdir>/home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.138</psfdir>
-			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.138</simdir>
+			<localpsfdir>/tmp/berkeley_cadence_055522502</localpsfdir>
+			<psfdir>/home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.163</psfdir>
+			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.163</simdir>
 			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
-			<runlog>/home/cadence/Desktop/user2/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.138.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.138.log</runlogfile>
+			<runlog>/home/cadence/Desktop/user2/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.163.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.163.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.139
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.164
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -352,7 +371,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>folded_cascode_project:Mosfet_charecterisation:1_none_Interactive.139</value>
+								<value>folded_cascode_project:Mosfet_charecterisation:1_none_Interactive.164</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -370,7 +389,7 @@
 							</option>
 						</origoptions>
 						<outputs>
-							<output>cgg
+							<output>cdd
 								<evalType>point</evalType>
 							</output>
 							<output>getData("M0:ids" ?result "dc")
@@ -388,7 +407,7 @@
 							<output>(getData("M0:gm" ?result "dcOp") * getData("M0:rout" ?result "dcOp"))
 								<evalType>point</evalType>
 							</output>
-							<output>rout
+							<output>rout Op
 								<evalType>point</evalType>
 							</output>
 							<output>cgg P
@@ -421,36 +440,45 @@
 							<output>vgs PMOS
 								<evalType>point</evalType>
 							</output>
+							<output>Vdsat
+								<evalType>point</evalType>
+							</output>
+							<output>Vdsat vs gm /id
+								<evalType>point</evalType>
+							</output>
+							<output>Vdsat OP
+								<evalType>point</evalType>
+							</output>
 						</outputs>
 					</test>
 				</tests>
 				<vars>
 					<var>L
-						<value>1u</value>
+						<value>500n</value>
 						<dependentTests>
 							<dependentTest omitted="0">folded_cascode_project:Mosfet_charecterisation:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>VBS
-						<value>0.8</value>
+						<value>0</value>
 						<dependentTests>
 							<dependentTest omitted="0">folded_cascode_project:Mosfet_charecterisation:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>VDS
-						<value>1.8</value>
+						<value>0.5</value>
 						<dependentTests>
 							<dependentTest omitted="0">folded_cascode_project:Mosfet_charecterisation:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>VGS
-						<value>2.05</value>
+						<value>0.75</value>
 						<dependentTests>
 							<dependentTest omitted="0">folded_cascode_project:Mosfet_charecterisation:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>W
-						<value>10u</value>
+						<value>15u</value>
 						<dependentTests>
 							<dependentTest omitted="0">folded_cascode_project:Mosfet_charecterisation:1</dependentTest>
 						</dependentTests>
@@ -470,23 +498,23 @@
 				</plottingoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Sun Apr 20 10:25:14 2025
+			<timestamp>Mon Apr 21 05:57:08 2025
 </timestamp>
-			<resultsname>/home/cadence/folded_cascode_project/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.139.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.139.rdb</simresults>
+			<resultsname>/home/cadence/Desktop/user2/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.164.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.164.rdb</simresults>
 			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/berkeley_cadence_102515015</localpsfdir>
-			<psfdir>/home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.139</psfdir>
-			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.139</simdir>
+			<localpsfdir>/tmp/berkeley_cadence_055708949</localpsfdir>
+			<psfdir>/home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.164</psfdir>
+			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.164</simdir>
 			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
-			<runlog>/home/cadence/folded_cascode_project/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.139.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.139.log</runlogfile>
+			<runlog>/home/cadence/Desktop/user2/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.164.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.164.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.140
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.165
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -520,7 +548,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>folded_cascode_project:Mosfet_charecterisation:1_none_Interactive.140</value>
+								<value>folded_cascode_project:Mosfet_charecterisation:1_none_Interactive.165</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -538,7 +566,7 @@
 							</option>
 						</origoptions>
 						<outputs>
-							<output>cgg
+							<output>cdd
 								<evalType>point</evalType>
 							</output>
 							<output>getData("M0:ids" ?result "dc")
@@ -556,7 +584,7 @@
 							<output>(getData("M0:gm" ?result "dcOp") * getData("M0:rout" ?result "dcOp"))
 								<evalType>point</evalType>
 							</output>
-							<output>rout
+							<output>rout Op
 								<evalType>point</evalType>
 							</output>
 							<output>cgg P
@@ -589,36 +617,45 @@
 							<output>vgs PMOS
 								<evalType>point</evalType>
 							</output>
+							<output>Vdsat
+								<evalType>point</evalType>
+							</output>
+							<output>Vdsat vs gm /id
+								<evalType>point</evalType>
+							</output>
+							<output>Vdsat OP
+								<evalType>point</evalType>
+							</output>
 						</outputs>
 					</test>
 				</tests>
 				<vars>
 					<var>L
-						<value>1u</value>
+						<value>500n</value>
 						<dependentTests>
 							<dependentTest omitted="0">folded_cascode_project:Mosfet_charecterisation:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>VBS
-						<value>0.8</value>
+						<value>0</value>
 						<dependentTests>
 							<dependentTest omitted="0">folded_cascode_project:Mosfet_charecterisation:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>VDS
-						<value>1.8</value>
+						<value>0.5</value>
 						<dependentTests>
 							<dependentTest omitted="0">folded_cascode_project:Mosfet_charecterisation:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>VGS
-						<value>0.822</value>
+						<value>0.75</value>
 						<dependentTests>
 							<dependentTest omitted="0">folded_cascode_project:Mosfet_charecterisation:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>W
-						<value>87u</value>
+						<value>17u</value>
 						<dependentTests>
 							<dependentTest omitted="0">folded_cascode_project:Mosfet_charecterisation:1</dependentTest>
 						</dependentTests>
@@ -638,23 +675,23 @@
 				</plottingoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Sun Apr 20 10:28:00 2025
+			<timestamp>Mon Apr 21 05:57:21 2025
 </timestamp>
-			<resultsname>/home/cadence/folded_cascode_project/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.140.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.140.rdb</simresults>
+			<resultsname>/home/cadence/Desktop/user2/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.165.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.165.rdb</simresults>
 			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/berkeley_cadence_102800615</localpsfdir>
-			<psfdir>/home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.140</psfdir>
-			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.140</simdir>
+			<localpsfdir>/tmp/berkeley_cadence_055722043</localpsfdir>
+			<psfdir>/home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.165</psfdir>
+			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.165</simdir>
 			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
-			<runlog>/home/cadence/folded_cascode_project/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.140.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.140.log</runlogfile>
+			<runlog>/home/cadence/Desktop/user2/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.165.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.165.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.141
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.166
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -688,7 +725,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>folded_cascode_project:Mosfet_charecterisation:1_none_Interactive.141</value>
+								<value>folded_cascode_project:Mosfet_charecterisation:1_none_Interactive.166</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -706,7 +743,7 @@
 							</option>
 						</origoptions>
 						<outputs>
-							<output>cgg
+							<output>cdd
 								<evalType>point</evalType>
 							</output>
 							<output>getData("M0:ids" ?result "dc")
@@ -724,7 +761,7 @@
 							<output>(getData("M0:gm" ?result "dcOp") * getData("M0:rout" ?result "dcOp"))
 								<evalType>point</evalType>
 							</output>
-							<output>rout
+							<output>rout Op
 								<evalType>point</evalType>
 							</output>
 							<output>cgg P
@@ -757,36 +794,45 @@
 							<output>vgs PMOS
 								<evalType>point</evalType>
 							</output>
+							<output>Vdsat
+								<evalType>point</evalType>
+							</output>
+							<output>Vdsat vs gm /id
+								<evalType>point</evalType>
+							</output>
+							<output>Vdsat OP
+								<evalType>point</evalType>
+							</output>
 						</outputs>
 					</test>
 				</tests>
 				<vars>
 					<var>L
-						<value>1u</value>
+						<value>500n</value>
 						<dependentTests>
 							<dependentTest omitted="0">folded_cascode_project:Mosfet_charecterisation:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>VBS
-						<value>0.8</value>
+						<value>0</value>
 						<dependentTests>
 							<dependentTest omitted="0">folded_cascode_project:Mosfet_charecterisation:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>VDS
-						<value>1.8</value>
+						<value>0.5</value>
 						<dependentTests>
 							<dependentTest omitted="0">folded_cascode_project:Mosfet_charecterisation:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>VGS
-						<value>0.822</value>
+						<value>0.75</value>
 						<dependentTests>
 							<dependentTest omitted="0">folded_cascode_project:Mosfet_charecterisation:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>W
-						<value>95u</value>
+						<value>16u</value>
 						<dependentTests>
 							<dependentTest omitted="0">folded_cascode_project:Mosfet_charecterisation:1</dependentTest>
 						</dependentTests>
@@ -806,23 +852,23 @@
 				</plottingoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Sun Apr 20 10:28:44 2025
+			<timestamp>Mon Apr 21 05:57:33 2025
 </timestamp>
-			<resultsname>/home/cadence/folded_cascode_project/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.141.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.141.rdb</simresults>
+			<resultsname>/home/cadence/Desktop/user2/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.166.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.166.rdb</simresults>
 			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/berkeley_cadence_102844409</localpsfdir>
-			<psfdir>/home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.141</psfdir>
-			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.141</simdir>
+			<localpsfdir>/tmp/berkeley_cadence_055733422</localpsfdir>
+			<psfdir>/home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.166</psfdir>
+			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.166</simdir>
 			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
-			<runlog>/home/cadence/folded_cascode_project/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.141.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.141.log</runlogfile>
+			<runlog>/home/cadence/Desktop/user2/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.166.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.166.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.142
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.167
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -856,7 +902,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>folded_cascode_project:Mosfet_charecterisation:1_none_Interactive.142</value>
+								<value>folded_cascode_project:Mosfet_charecterisation:1_none_Interactive.167</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -874,7 +920,7 @@
 							</option>
 						</origoptions>
 						<outputs>
-							<output>cgg
+							<output>cdd
 								<evalType>point</evalType>
 							</output>
 							<output>getData("M0:ids" ?result "dc")
@@ -892,7 +938,7 @@
 							<output>(getData("M0:gm" ?result "dcOp") * getData("M0:rout" ?result "dcOp"))
 								<evalType>point</evalType>
 							</output>
-							<output>rout
+							<output>rout Op
 								<evalType>point</evalType>
 							</output>
 							<output>cgg P
@@ -925,36 +971,45 @@
 							<output>vgs PMOS
 								<evalType>point</evalType>
 							</output>
+							<output>Vdsat
+								<evalType>point</evalType>
+							</output>
+							<output>Vdsat vs gm /id
+								<evalType>point</evalType>
+							</output>
+							<output>Vdsat OP
+								<evalType>point</evalType>
+							</output>
 						</outputs>
 					</test>
 				</tests>
 				<vars>
 					<var>L
-						<value>2u</value>
+						<value>500n</value>
 						<dependentTests>
 							<dependentTest omitted="0">folded_cascode_project:Mosfet_charecterisation:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>VBS
-						<value>0.8</value>
+						<value>0</value>
 						<dependentTests>
 							<dependentTest omitted="0">folded_cascode_project:Mosfet_charecterisation:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>VDS
-						<value>1.8</value>
+						<value>0.25</value>
 						<dependentTests>
 							<dependentTest omitted="0">folded_cascode_project:Mosfet_charecterisation:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>VGS
-						<value>0.822</value>
+						<value>0.75</value>
 						<dependentTests>
 							<dependentTest omitted="0">folded_cascode_project:Mosfet_charecterisation:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>W
-						<value>95u</value>
+						<value>16u</value>
 						<dependentTests>
 							<dependentTest omitted="0">folded_cascode_project:Mosfet_charecterisation:1</dependentTest>
 						</dependentTests>
@@ -974,23 +1029,23 @@
 				</plottingoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Sun Apr 20 10:31:20 2025
+			<timestamp>Mon Apr 21 05:58:31 2025
 </timestamp>
-			<resultsname>/home/cadence/folded_cascode_project/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.142.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.142.rdb</simresults>
+			<resultsname>/home/cadence/Desktop/user2/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.167.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.167.rdb</simresults>
 			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/berkeley_cadence_103120322</localpsfdir>
-			<psfdir>/home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.142</psfdir>
-			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.142</simdir>
+			<localpsfdir>/tmp/berkeley_cadence_055831700</localpsfdir>
+			<psfdir>/home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.167</psfdir>
+			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.167</simdir>
 			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
-			<runlog>/home/cadence/folded_cascode_project/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.142.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.142.log</runlogfile>
+			<runlog>/home/cadence/Desktop/user2/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.167.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.167.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.143
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.168
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -1024,7 +1079,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>folded_cascode_project:Mosfet_charecterisation:1_none_Interactive.143</value>
+								<value>folded_cascode_project:Mosfet_charecterisation:1_none_Interactive.168</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -1042,7 +1097,7 @@
 							</option>
 						</origoptions>
 						<outputs>
-							<output>cgg
+							<output>cdd
 								<evalType>point</evalType>
 							</output>
 							<output>getData("M0:ids" ?result "dc")
@@ -1060,7 +1115,7 @@
 							<output>(getData("M0:gm" ?result "dcOp") * getData("M0:rout" ?result "dcOp"))
 								<evalType>point</evalType>
 							</output>
-							<output>rout
+							<output>rout Op
 								<evalType>point</evalType>
 							</output>
 							<output>cgg P
@@ -1093,36 +1148,45 @@
 							<output>vgs PMOS
 								<evalType>point</evalType>
 							</output>
+							<output>Vdsat
+								<evalType>point</evalType>
+							</output>
+							<output>Vdsat vs gm /id
+								<evalType>point</evalType>
+							</output>
+							<output>Vdsat OP
+								<evalType>point</evalType>
+							</output>
 						</outputs>
 					</test>
 				</tests>
 				<vars>
 					<var>L
-						<value>2u</value>
+						<value>500n</value>
 						<dependentTests>
 							<dependentTest omitted="0">folded_cascode_project:Mosfet_charecterisation:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>VBS
-						<value>0.8</value>
+						<value>0</value>
 						<dependentTests>
 							<dependentTest omitted="0">folded_cascode_project:Mosfet_charecterisation:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>VDS
-						<value>1.8</value>
+						<value>0.25</value>
 						<dependentTests>
 							<dependentTest omitted="0">folded_cascode_project:Mosfet_charecterisation:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>VGS
-						<value>0.812</value>
+						<value>0.765</value>
 						<dependentTests>
 							<dependentTest omitted="0">folded_cascode_project:Mosfet_charecterisation:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>W
-						<value>183u</value>
+						<value>16u</value>
 						<dependentTests>
 							<dependentTest omitted="0">folded_cascode_project:Mosfet_charecterisation:1</dependentTest>
 						</dependentTests>
@@ -1142,23 +1206,23 @@
 				</plottingoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Sun Apr 20 10:32:48 2025
+			<timestamp>Mon Apr 21 05:59:10 2025
 </timestamp>
-			<resultsname>/home/cadence/folded_cascode_project/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.143.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.143.rdb</simresults>
+			<resultsname>/home/cadence/Desktop/user2/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.168.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.168.rdb</simresults>
 			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/berkeley_cadence_103249163</localpsfdir>
-			<psfdir>/home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.143</psfdir>
-			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.143</simdir>
+			<localpsfdir>/tmp/berkeley_cadence_055911044</localpsfdir>
+			<psfdir>/home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.168</psfdir>
+			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.168</simdir>
 			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
-			<runlog>/home/cadence/folded_cascode_project/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.143.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.143.log</runlogfile>
+			<runlog>/home/cadence/Desktop/user2/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.168.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.168.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.144
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.169
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -1192,7 +1256,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>folded_cascode_project:Mosfet_charecterisation:1_none_Interactive.144</value>
+								<value>folded_cascode_project:Mosfet_charecterisation:1_none_Interactive.169</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -1210,7 +1274,7 @@
 							</option>
 						</origoptions>
 						<outputs>
-							<output>cgg
+							<output>cdd
 								<evalType>point</evalType>
 							</output>
 							<output>getData("M0:ids" ?result "dc")
@@ -1228,7 +1292,7 @@
 							<output>(getData("M0:gm" ?result "dcOp") * getData("M0:rout" ?result "dcOp"))
 								<evalType>point</evalType>
 							</output>
-							<output>rout
+							<output>rout Op
 								<evalType>point</evalType>
 							</output>
 							<output>cgg P
@@ -1261,36 +1325,45 @@
 							<output>vgs PMOS
 								<evalType>point</evalType>
 							</output>
+							<output>Vdsat
+								<evalType>point</evalType>
+							</output>
+							<output>Vdsat vs gm /id
+								<evalType>point</evalType>
+							</output>
+							<output>Vdsat OP
+								<evalType>point</evalType>
+							</output>
 						</outputs>
 					</test>
 				</tests>
 				<vars>
 					<var>L
-						<value>2u</value>
+						<value>500n</value>
 						<dependentTests>
 							<dependentTest omitted="0">folded_cascode_project:Mosfet_charecterisation:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>VBS
-						<value>0.8</value>
+						<value>0</value>
 						<dependentTests>
 							<dependentTest omitted="0">folded_cascode_project:Mosfet_charecterisation:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>VDS
-						<value>1.8</value>
+						<value>0.25</value>
 						<dependentTests>
 							<dependentTest omitted="0">folded_cascode_project:Mosfet_charecterisation:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>VGS
-						<value>0.812</value>
+						<value>0.765</value>
 						<dependentTests>
 							<dependentTest omitted="0">folded_cascode_project:Mosfet_charecterisation:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>W
-						<value>200u</value>
+						<value>18u</value>
 						<dependentTests>
 							<dependentTest omitted="0">folded_cascode_project:Mosfet_charecterisation:1</dependentTest>
 						</dependentTests>
@@ -1310,23 +1383,23 @@
 				</plottingoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Sun Apr 20 10:33:31 2025
+			<timestamp>Mon Apr 21 06:00:50 2025
 </timestamp>
-			<resultsname>/home/cadence/folded_cascode_project/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.144.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.144.rdb</simresults>
+			<resultsname>/home/cadence/Desktop/user2/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.169.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.169.rdb</simresults>
 			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/berkeley_cadence_103331438</localpsfdir>
-			<psfdir>/home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.144</psfdir>
-			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.144</simdir>
+			<localpsfdir>/tmp/berkeley_cadence_060050152</localpsfdir>
+			<psfdir>/home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.169</psfdir>
+			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.169</simdir>
 			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
-			<runlog>/home/cadence/folded_cascode_project/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.144.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.144.log</runlogfile>
+			<runlog>/home/cadence/Desktop/user2/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.169.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.169.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.145
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.170
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -1360,7 +1433,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>folded_cascode_project:Mosfet_charecterisation:1_none_Interactive.145</value>
+								<value>folded_cascode_project:Mosfet_charecterisation:1_none_Interactive.170</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -1378,7 +1451,7 @@
 							</option>
 						</origoptions>
 						<outputs>
-							<output>cgg
+							<output>cdd
 								<evalType>point</evalType>
 							</output>
 							<output>getData("M0:ids" ?result "dc")
@@ -1396,7 +1469,7 @@
 							<output>(getData("M0:gm" ?result "dcOp") * getData("M0:rout" ?result "dcOp"))
 								<evalType>point</evalType>
 							</output>
-							<output>rout
+							<output>rout Op
 								<evalType>point</evalType>
 							</output>
 							<output>cgg P
@@ -1429,36 +1502,45 @@
 							<output>vgs PMOS
 								<evalType>point</evalType>
 							</output>
+							<output>Vdsat
+								<evalType>point</evalType>
+							</output>
+							<output>Vdsat vs gm /id
+								<evalType>point</evalType>
+							</output>
+							<output>Vdsat OP
+								<evalType>point</evalType>
+							</output>
 						</outputs>
 					</test>
 				</tests>
 				<vars>
 					<var>L
-						<value>400n</value>
+						<value>500n</value>
 						<dependentTests>
 							<dependentTest omitted="0">folded_cascode_project:Mosfet_charecterisation:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>VBS
-						<value>0.7</value>
+						<value>0</value>
 						<dependentTests>
 							<dependentTest omitted="0">folded_cascode_project:Mosfet_charecterisation:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>VDS
-						<value>0.9</value>
+						<value>0.25</value>
 						<dependentTests>
 							<dependentTest omitted="0">folded_cascode_project:Mosfet_charecterisation:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>VGS
-						<value>0.8</value>
+						<value>0.765</value>
 						<dependentTests>
 							<dependentTest omitted="0">folded_cascode_project:Mosfet_charecterisation:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>W
-						<value>10u</value>
+						<value>12u</value>
 						<dependentTests>
 							<dependentTest omitted="0">folded_cascode_project:Mosfet_charecterisation:1</dependentTest>
 						</dependentTests>
@@ -1478,23 +1560,23 @@
 				</plottingoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Sun Apr 20 10:48:48 2025
+			<timestamp>Mon Apr 21 06:01:12 2025
 </timestamp>
-			<resultsname>/home/cadence/folded_cascode_project/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.145.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.145.rdb</simresults>
+			<resultsname>/home/cadence/Desktop/user2/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.170.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.170.rdb</simresults>
 			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/berkeley_cadence_104848471</localpsfdir>
-			<psfdir>/home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.145</psfdir>
-			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.145</simdir>
+			<localpsfdir>/tmp/berkeley_cadence_060112481</localpsfdir>
+			<psfdir>/home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.170</psfdir>
+			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.170</simdir>
 			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
-			<runlog>/home/cadence/folded_cascode_project/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.145.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.145.log</runlogfile>
+			<runlog>/home/cadence/Desktop/user2/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.170.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.170.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.146
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.171
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -1528,7 +1610,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>folded_cascode_project:Mosfet_charecterisation:1_none_Interactive.146</value>
+								<value>folded_cascode_project:Mosfet_charecterisation:1_none_Interactive.171</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -1546,7 +1628,7 @@
 							</option>
 						</origoptions>
 						<outputs>
-							<output>cgg
+							<output>cdd
 								<evalType>point</evalType>
 							</output>
 							<output>getData("M0:ids" ?result "dc")
@@ -1564,7 +1646,7 @@
 							<output>(getData("M0:gm" ?result "dcOp") * getData("M0:rout" ?result "dcOp"))
 								<evalType>point</evalType>
 							</output>
-							<output>rout
+							<output>rout Op
 								<evalType>point</evalType>
 							</output>
 							<output>cgg P
@@ -1597,36 +1679,45 @@
 							<output>vgs PMOS
 								<evalType>point</evalType>
 							</output>
+							<output>Vdsat
+								<evalType>point</evalType>
+							</output>
+							<output>Vdsat vs gm /id
+								<evalType>point</evalType>
+							</output>
+							<output>Vdsat OP
+								<evalType>point</evalType>
+							</output>
 						</outputs>
 					</test>
 				</tests>
 				<vars>
 					<var>L
-						<value>400n</value>
+						<value>500n</value>
 						<dependentTests>
 							<dependentTest omitted="0">folded_cascode_project:Mosfet_charecterisation:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>VBS
-						<value>0.7</value>
+						<value>0</value>
 						<dependentTests>
 							<dependentTest omitted="0">folded_cascode_project:Mosfet_charecterisation:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>VDS
-						<value>0.9</value>
+						<value>0.25</value>
 						<dependentTests>
 							<dependentTest omitted="0">folded_cascode_project:Mosfet_charecterisation:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>VGS
-						<value>0.8</value>
+						<value>0.77</value>
 						<dependentTests>
 							<dependentTest omitted="0">folded_cascode_project:Mosfet_charecterisation:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>W
-						<value>14.5u</value>
+						<value>12u</value>
 						<dependentTests>
 							<dependentTest omitted="0">folded_cascode_project:Mosfet_charecterisation:1</dependentTest>
 						</dependentTests>
@@ -1646,23 +1737,23 @@
 				</plottingoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Sun Apr 20 10:50:57 2025
+			<timestamp>Mon Apr 21 06:01:23 2025
 </timestamp>
-			<resultsname>/home/cadence/folded_cascode_project/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.146.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.146.rdb</simresults>
+			<resultsname>/home/cadence/Desktop/user2/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.171.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.171.rdb</simresults>
 			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/berkeley_cadence_105057859</localpsfdir>
-			<psfdir>/home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.146</psfdir>
-			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.146</simdir>
+			<localpsfdir>/tmp/berkeley_cadence_060123764</localpsfdir>
+			<psfdir>/home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.171</psfdir>
+			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.171</simdir>
 			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
-			<runlog>/home/cadence/folded_cascode_project/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.146.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.146.log</runlogfile>
+			<runlog>/home/cadence/Desktop/user2/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.171.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.171.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.147
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.172
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -1696,7 +1787,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>folded_cascode_project:Mosfet_charecterisation:1_none_Interactive.147</value>
+								<value>folded_cascode_project:Mosfet_charecterisation:1_none_Interactive.172</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -1714,7 +1805,7 @@
 							</option>
 						</origoptions>
 						<outputs>
-							<output>cgg
+							<output>cdd
 								<evalType>point</evalType>
 							</output>
 							<output>getData("M0:ids" ?result "dc")
@@ -1732,7 +1823,7 @@
 							<output>(getData("M0:gm" ?result "dcOp") * getData("M0:rout" ?result "dcOp"))
 								<evalType>point</evalType>
 							</output>
-							<output>rout
+							<output>rout Op
 								<evalType>point</evalType>
 							</output>
 							<output>cgg P
@@ -1765,36 +1856,45 @@
 							<output>vgs PMOS
 								<evalType>point</evalType>
 							</output>
+							<output>Vdsat
+								<evalType>point</evalType>
+							</output>
+							<output>Vdsat vs gm /id
+								<evalType>point</evalType>
+							</output>
+							<output>Vdsat OP
+								<evalType>point</evalType>
+							</output>
 						</outputs>
 					</test>
 				</tests>
 				<vars>
 					<var>L
-						<value>400n</value>
+						<value>500n</value>
 						<dependentTests>
 							<dependentTest omitted="0">folded_cascode_project:Mosfet_charecterisation:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>VBS
-						<value>0.7</value>
+						<value>0</value>
 						<dependentTests>
 							<dependentTest omitted="0">folded_cascode_project:Mosfet_charecterisation:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>VDS
-						<value>0.9</value>
+						<value>0.25</value>
 						<dependentTests>
 							<dependentTest omitted="0">folded_cascode_project:Mosfet_charecterisation:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>VGS
-						<value>0.94</value>
+						<value>0.77</value>
 						<dependentTests>
 							<dependentTest omitted="0">folded_cascode_project:Mosfet_charecterisation:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>W
-						<value>14.5u</value>
+						<value>14u</value>
 						<dependentTests>
 							<dependentTest omitted="0">folded_cascode_project:Mosfet_charecterisation:1</dependentTest>
 						</dependentTests>
@@ -1814,19 +1914,19 @@
 				</plottingoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Sun Apr 20 10:52:05 2025
+			<timestamp>Mon Apr 21 06:01:58 2025
 </timestamp>
-			<resultsname>/home/cadence/folded_cascode_project/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.147.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.147.rdb</simresults>
+			<resultsname>/home/cadence/Desktop/user2/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.172.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.172.rdb</simresults>
 			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/berkeley_cadence_105205169</localpsfdir>
-			<psfdir>/home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.147</psfdir>
-			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.147</simdir>
+			<localpsfdir>/tmp/berkeley_cadence_060158442</localpsfdir>
+			<psfdir>/home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.172</psfdir>
+			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.172</simdir>
 			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
-			<runlog>/home/cadence/folded_cascode_project/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.147.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.147.log</runlogfile>
+			<runlog>/home/cadence/Desktop/user2/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.172.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.172.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>

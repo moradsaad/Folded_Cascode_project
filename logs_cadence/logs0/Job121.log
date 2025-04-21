@@ -7,16 +7,16 @@
 *Info*    Configuring the session ...
 
 	Library      = folded_cascode_project
-	Cell         = Mosfet_charecterisation
+	Cell         = opamp_TB_ClosedLoop
 	View         = schematic
 	Simulator    = spectre
 	State Path   = $AXL_SETUPDB_DIR/test_states
-	State Name   = folded_cascode_project:Mosfet_charecterisation:1_none_Interactive.95
-	Results DB   = /home/cadence/Desktop/user2/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.95.rdb
-	Results Dir  = /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.95/1/folded_cascode_project:Mosfet_charecterisation:1
-	Results Loc  = /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data
+	State Name   = folded_cascode_project:opamp_TB_ClosedLoop:1_none_Interactive.90
+	Results DB   = /home/cadence/Desktop/user2/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.90.rdb
+	Results Dir  = /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.90/1/folded_cascode_project:opamp_TB_ClosedLoop:1
+	Results Loc  = /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data
 	Project Dir  = /home/cadence/simulation
-	Setup DB loc = /home/cadence/Desktop/user2/folded_cascode_project/Mosfet_charecterisation/adexl
+	Setup DB loc = /home/cadence/Desktop/user2/folded_cascode_project/opamp_TB_ClosedLoop/adexl
 	File Encoding = 0
 
 
@@ -27,45 +27,55 @@
 
 
 
-*Info*    Run start for Point ID (93 1) on testbench [
-          folded_cascode_project:Mosfet_charecterisation:1 ].
+*Info*    Run start for Point ID (32 1) on testbench [
+          folded_cascode_project:opamp_TB_ClosedLoop:1 ].
 
 Resetting statistical vars
 
 *Info*    Setting parameter values ...
 
-Setting var L = "0.6u"
-Setting var VBS = "0"
-Setting var VDS = "0.5"
-Setting var VGS = "1.4"
-Setting var W = "0.9u"
+Setting var VB2 = "1.27"
+Setting var VB3 = "1.27"
+Setting var Vincm = "1.65"
+Setting var Vind = "1"
 Setting temp(T) = 27
 
 *Info*    Netlist Directory =
-          /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.95/1/folded_cascode_project:Mosfet_charecterisation:1/netlist
+          /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.90/1/folded_cascode_project:opamp_TB_ClosedLoop:1/netlist
 
 
 *Info*    Data Directory    =
-          /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.95/1/folded_cascode_project:Mosfet_charecterisation:1
+          /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.90/1/folded_cascode_project:opamp_TB_ClosedLoop:1
 
 
-*Info*    Creating Netlist for Point ID (93 1)
+*Info*    Creating Netlist for Point ID (32 1)
 
 generate netlist...
-Begin Incremental Netlisting Apr 19 12:54:52 2025
-End netlisting Apr 19 12:54:52 2025
+Begin Incremental Netlisting Apr 21 06:26:38 2025
+WARNING (OSSHNL-160): The primitive, 'analogLib/vsource/spectre', was not used in the last netlisting session in this
+current run directory. Therefore, re-netlisting all cell views where this
+primitive is instantiated.
 
-	The netlist is up to date.
-	Time taken to compare the design with netlist:   0.0s
+WARNING (OSSHNL-195): The value of the property "nlAction" on instance 'V1' in cell 'opamp_TB_ClosedLoop', view
+'schematic', has changed since the last netlisting session in the current run
+directory. Some cell views will be re-netlisted.
+
+End netlisting Apr 21 06:26:38 2025
+
+Netlisting Statistics:
+	Number of components:    8
+
+	Elapsed time:          1.0s (8.00/s)
+Errors: 0	Warnings: 0
       ...successful.
 compose simulator input file...
       ...successful.
 
 *Info*    Running simulation on testbench [
-          folded_cascode_project:Mosfet_charecterisation:1 ] for
-          Point ID (93 1).
+          folded_cascode_project:opamp_TB_ClosedLoop:1 ] for Point ID
+          (32 1).
 
-Delete psf data in /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.95/1/folded_cascode_project:Mosfet_charecterisation:1/psf.
+Delete psf data in /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.90/1/folded_cascode_project:opamp_TB_ClosedLoop:1/psf.
 compose simulator input file...
       ...successful.
 start simulator if needed...
@@ -79,9 +89,33 @@ reading simulation data...
       ...successful.
 *Info*    Client has finished evaluating ... 
 
+WARNING (OCN-6038): Results tran are not available for /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.90/1/folded_cascode_project:opamp_TB_ClosedLoop:1. Use results() for a list of available results.
+WARNING (OCN-6038): Results tran are not available for /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.90/1/folded_cascode_project:opamp_TB_ClosedLoop:1. Use results() for a list of available results.
+ERROR (ADEXL-2709): Evaluation of output 'transient output' returned 'nil' for point:'1' test:'folded_cascode_project:opamp_TB_ClosedLoop:1'
+	Expression:'v("/Vout" ?result "tran")'.
+Ensure that the definition of output is correct.
 
-*Info*    Run complete for Point ID (93 1) on testbench [
-          folded_cascode_project:Mosfet_charecterisation:1 ].
+WARNING (OCN-6038): Results tran are not available for /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.90/1/folded_cascode_project:opamp_TB_ClosedLoop:1. Use results() for a list of available results.
+WARNING (OCN-6038): Results tran are not available for /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.90/1/folded_cascode_project:opamp_TB_ClosedLoop:1. Use results() for a list of available results.
+ERROR (ADEXL-2709): Evaluation of output 'transient input' returned 'nil' for point:'1' test:'folded_cascode_project:opamp_TB_ClosedLoop:1'
+	Expression:'v("/Vin" ?result "tran")'.
+Ensure that the definition of output is correct.
+
+WARNING (OCN-6038): Results tran are not available for /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.90/1/folded_cascode_project:opamp_TB_ClosedLoop:1/psf. Use results() for a list of available results.
+WARNING (OCN-6038): Results tran_info-tran_info are not available for /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.90/1/folded_cascode_project:opamp_TB_ClosedLoop:1/psf. Use results() for a list of available results.
+ERROR (ADEXL-2709): Evaluation of output 'settlingTime(VT("/Vout") 1.5 nil 1.6 nil 1 nil "time")' returned 'nil' for point:'1' test:'folded_cascode_project:opamp_TB_ClosedLoop:1'
+	Expression:'settlingTime(VT("/Vout") 1.5 nil 1.6 nil 1 nil "time")'.
+Ensure that the definition of output is correct.
+
+WARNING (OCN-6038): Results tran are not available for /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.90/1/folded_cascode_project:opamp_TB_ClosedLoop:1/psf. Use results() for a list of available results.
+WARNING (OCN-6038): Results tran_info-tran_info are not available for /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.90/1/folded_cascode_project:opamp_TB_ClosedLoop:1/psf. Use results() for a list of available results.
+ERROR (ADEXL-2709): Evaluation of output 'settlingTime(VT("/Vout") 1.5 nil 1.6 nil 2 nil "time")' returned 'nil' for point:'1' test:'folded_cascode_project:opamp_TB_ClosedLoop:1'
+	Expression:'settlingTime(VT("/Vout") 1.5 nil 1.6 nil 2 nil "time")'.
+Ensure that the definition of output is correct.
+
+
+*Info*    Run complete for Point ID (32 1) on testbench [
+          folded_cascode_project:opamp_TB_ClosedLoop:1 ].
 
 
 

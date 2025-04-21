@@ -11,12 +11,12 @@
 	View         = schematic
 	Simulator    = spectre
 	State Path   = $AXL_SETUPDB_DIR/test_states
-	State Name   = folded_cascode_project:opamp_TB_ClosedLoop:1_none_Interactive.9
-	Results DB   = /home/cadence/folded_cascode_project/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.9.rdb
-	Results Dir  = /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.9/1/folded_cascode_project:opamp_TB_ClosedLoop:1
+	State Name   = folded_cascode_project:opamp_TB_ClosedLoop:1_none_Interactive.75
+	Results DB   = /home/cadence/Desktop/user2/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.75.rdb
+	Results Dir  = /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.75/1/folded_cascode_project:opamp_TB_ClosedLoop:1
 	Results Loc  = /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data
 	Project Dir  = /home/cadence/simulation
-	Setup DB loc = /home/cadence/folded_cascode_project/folded_cascode_project/opamp_TB_ClosedLoop/adexl
+	Setup DB loc = /home/cadence/Desktop/user2/folded_cascode_project/opamp_TB_ClosedLoop/adexl
 	File Encoding = 0
 
 
@@ -27,7 +27,7 @@
 
 
 
-*Info*    Run start for Point ID (1 1) on testbench [
+*Info*    Run start for Point ID (17 1) on testbench [
           folded_cascode_project:opamp_TB_ClosedLoop:1 ].
 
 Resetting statistical vars
@@ -41,29 +41,21 @@ Setting var Vind = "1"
 Setting temp(T) = 27
 
 *Info*    Netlist Directory =
-          /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.9/1/folded_cascode_project:opamp_TB_ClosedLoop:1/netlist
+          /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.75/1/folded_cascode_project:opamp_TB_ClosedLoop:1/netlist
 
 
 *Info*    Data Directory    =
-          /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.9/1/folded_cascode_project:opamp_TB_ClosedLoop:1
+          /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.75/1/folded_cascode_project:opamp_TB_ClosedLoop:1
 
 
-*Info*    Creating Netlist for Point ID (1 1)
+*Info*    Creating Netlist for Point ID (17 1)
 
 generate netlist...
-Begin Incremental Netlisting Apr 20 11:27:15 2025
-WARNING (OSSHNL-160): The primitive, 'analogLib/vsource/spectre', was not used in the last netlisting session in this
-current run directory. Therefore, re-netlisting all cell views where this
-primitive is instantiated.
-
-WARNING (OSSHNL-195): The value of the property "nlAction" on instance 'V1' in cell 'opamp_TB_ClosedLoop', view
-'schematic', has changed since the last netlisting session in the current run
-directory. Some cell views will be re-netlisted.
-
-End netlisting Apr 20 11:27:15 2025
+Begin Incremental Netlisting Apr 21 05:22:27 2025
+End netlisting Apr 21 05:22:27 2025
 
 Netlisting Statistics:
-	Number of components:    8
+	Number of components:   14
 
 	Elapsed time:          0.0s
 Errors: 0	Warnings: 0
@@ -73,9 +65,9 @@ compose simulator input file...
 
 *Info*    Running simulation on testbench [
           folded_cascode_project:opamp_TB_ClosedLoop:1 ] for Point ID
-          (1 1).
+          (17 1).
 
-Delete psf data in /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.9/1/folded_cascode_project:opamp_TB_ClosedLoop:1/psf.
+Delete psf data in /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.75/1/folded_cascode_project:opamp_TB_ClosedLoop:1/psf.
 compose simulator input file...
       ...successful.
 start simulator if needed...
@@ -89,16 +81,8 @@ reading simulation data...
       ...successful.
 *Info*    Client has finished evaluating ... 
 
-ERROR (ADEXL-2709): Evaluation of output 'BWcl' returned 'nil' for point:'1' test:'folded_cascode_project:opamp_TB_ClosedLoop:1'
-	Expression:'bandwidth(v("/Vout" ?result "ac") 3 "low")'.
-Ensure that the definition of output is correct.
 
-ERROR (ADEXL-2709): Evaluation of output 'GBW' returned 'nil' for point:'1' test:'folded_cascode_project:opamp_TB_ClosedLoop:1'
-	Expression:'gainBwProd(v("/Vout" ?result "ac"))'.
-Ensure that the definition of output is correct.
-
-
-*Info*    Run complete for Point ID (1 1) on testbench [
+*Info*    Run complete for Point ID (17 1) on testbench [
           folded_cascode_project:opamp_TB_ClosedLoop:1 ].
 
 

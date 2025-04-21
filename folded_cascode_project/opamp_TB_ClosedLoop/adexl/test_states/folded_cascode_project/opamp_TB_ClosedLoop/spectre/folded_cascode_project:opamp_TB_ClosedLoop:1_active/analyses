@@ -37,7 +37,7 @@ analysis(ac fields start) "10"
 analysis(ac fields step) ""
 analysis(ac fields stepTypeLin) "Step Size"
 analysis(ac fields stepTypeLog) "Points Per Decade"
-analysis(ac fields stop) "100G"
+analysis(ac fields stop) "1G"
 analysis(ac fields sweep) "Frequency"
 analysis(ac fields sweepChange) nil
 analysis(ac fields useDiscrete) nil
@@ -109,7 +109,7 @@ analysis(noise fields dec) "10"
 analysis(noise fields designVar) ""
 analysis(noise fields dev) ""
 analysis(noise fields deviceParam) ""
-analysis(noise fields enable) (t)
+analysis(noise fields enable) (nil)
 analysis(noise fields freq) ""
 analysis(noise fields inIsrc) ""
 analysis(noise fields inPort) ""
@@ -237,7 +237,7 @@ analysis(tran fields dynParamB) nil
 analysis(tran fields dynParamListBox) (nil choices nil value nil)
 analysis(tran fields dynchoice) "Parameter file"
 analysis(tran fields dynparam) ""
-analysis(tran fields enable) (t)
+analysis(tran fields enable) (nil)
 analysis(tran fields errpreset) "moderate"
 analysis(tran fields noisefmax) ""
 analysis(tran fields noisefmin) ""

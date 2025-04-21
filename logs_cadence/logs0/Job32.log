@@ -7,16 +7,16 @@
 *Info*    Configuring the session ...
 
 	Library      = folded_cascode_project
-	Cell         = opamp_TB
+	Cell         = Mosfet_charecterisation
 	View         = schematic
 	Simulator    = spectre
 	State Path   = $AXL_SETUPDB_DIR/test_states
-	State Name   = folded_cascode_project:opamp_TB:1_none_Interactive.45
-	Results DB   = /home/cadence/Desktop/user2/folded_cascode_project/opamp_TB/adexl/results/data/Interactive.45.rdb
-	Results Dir  = /home/cadence/simulation/folded_cascode_project/opamp_TB/adexl/results/data/Interactive.45/1/folded_cascode_project:opamp_TB:1
-	Results Loc  = /home/cadence/simulation/folded_cascode_project/opamp_TB/adexl/results/data
+	State Name   = folded_cascode_project:Mosfet_charecterisation:1_none_Interactive.183
+	Results DB   = /home/cadence/Final_Design/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.183.rdb
+	Results Dir  = /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.183/1/folded_cascode_project:Mosfet_charecterisation:1
+	Results Loc  = /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data
 	Project Dir  = /home/cadence/simulation
-	Setup DB loc = /home/cadence/Desktop/user2/folded_cascode_project/opamp_TB/adexl
+	Setup DB loc = /home/cadence/Final_Design/folded_cascode_project/Mosfet_charecterisation/adexl
 	File Encoding = 0
 
 
@@ -27,34 +27,33 @@
 
 
 
-*Info*    Run start for Point ID (2 1) on testbench [
-          folded_cascode_project:opamp_TB:1 ].
+*Info*    Run start for Point ID (10 1) on testbench [
+          folded_cascode_project:Mosfet_charecterisation:1 ].
 
 Resetting statistical vars
 
 *Info*    Setting parameter values ...
 
-Setting var VB2 = "1.73"
-Setting var VB3 = "1.27"
-Setting var VICMAC = "0"
-Setting var VIDAC = "0"
-Setting var VIDDC = "0"
+Setting var L = "400n"
+Setting var VBS = "0.58"
+Setting var VDS = "0.92"
+Setting var VGS = "0.92"
+Setting var W = "14.2u"
 Setting temp(T) = 27
-Setting var u = "1"
 
 *Info*    Netlist Directory =
-          /home/cadence/simulation/folded_cascode_project/opamp_TB/adexl/results/data/Interactive.45/1/folded_cascode_project:opamp_TB:1/netlist
+          /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.183/1/folded_cascode_project:Mosfet_charecterisation:1/netlist
 
 
 *Info*    Data Directory    =
-          /home/cadence/simulation/folded_cascode_project/opamp_TB/adexl/results/data/Interactive.45/1/folded_cascode_project:opamp_TB:1
+          /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.183/1/folded_cascode_project:Mosfet_charecterisation:1
 
 
-*Info*    Creating Netlist for Point ID (2 1)
+*Info*    Creating Netlist for Point ID (10 1)
 
 generate netlist...
-Begin Incremental Netlisting Apr 21 07:41:46 2025
-End netlisting Apr 21 07:41:46 2025
+Begin Incremental Netlisting Apr 21 10:30:37 2025
+End netlisting Apr 21 10:30:37 2025
 
 	The netlist is up to date.
 	Time taken to compare the design with netlist:   0.0s
@@ -63,9 +62,10 @@ compose simulator input file...
       ...successful.
 
 *Info*    Running simulation on testbench [
-          folded_cascode_project:opamp_TB:1 ] for Point ID (2 1).
+          folded_cascode_project:Mosfet_charecterisation:1 ] for
+          Point ID (10 1).
 
-Delete psf data in /home/cadence/simulation/folded_cascode_project/opamp_TB/adexl/results/data/Interactive.45/1/folded_cascode_project:opamp_TB:1/psf.
+Delete psf data in /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.183/1/folded_cascode_project:Mosfet_charecterisation:1/psf.
 compose simulator input file...
       ...successful.
 start simulator if needed...
@@ -80,8 +80,8 @@ reading simulation data...
 *Info*    Client has finished evaluating ... 
 
 
-*Info*    Run complete for Point ID (2 1) on testbench [
-          folded_cascode_project:opamp_TB:1 ].
+*Info*    Run complete for Point ID (10 1) on testbench [
+          folded_cascode_project:Mosfet_charecterisation:1 ].
 
 
 

@@ -7,16 +7,16 @@
 *Info*    Configuring the session ...
 
 	Library      = folded_cascode_project
-	Cell         = opamp_TB_ClosedLoop
+	Cell         = Mosfet_charecterisation
 	View         = schematic
 	Simulator    = spectre
 	State Path   = $AXL_SETUPDB_DIR/test_states
-	State Name   = folded_cascode_project:opamp_TB_ClosedLoop:1_none_Interactive.34
-	Results DB   = /home/cadence/Desktop/user2/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.34.rdb
-	Results Dir  = /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.34/1/folded_cascode_project:opamp_TB_ClosedLoop:1
-	Results Loc  = /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data
+	State Name   = folded_cascode_project:Mosfet_charecterisation:1_none_Interactive.180
+	Results DB   = /home/cadence/Final_Design/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.180.rdb
+	Results Dir  = /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.180/1/folded_cascode_project:Mosfet_charecterisation:1
+	Results Loc  = /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data
 	Project Dir  = /home/cadence/simulation
-	Setup DB loc = /home/cadence/Desktop/user2/folded_cascode_project/opamp_TB_ClosedLoop/adexl
+	Setup DB loc = /home/cadence/Final_Design/folded_cascode_project/Mosfet_charecterisation/adexl
 	File Encoding = 0
 
 
@@ -28,46 +28,44 @@
 
 
 *Info*    Run start for Point ID (7 1) on testbench [
-          folded_cascode_project:opamp_TB_ClosedLoop:1 ].
+          folded_cascode_project:Mosfet_charecterisation:1 ].
 
 Resetting statistical vars
 
 *Info*    Setting parameter values ...
 
-Setting var VB2 = "1.73"
-Setting var VB3 = "1.65"
-Setting var Vincm = "1.65"
-Setting var Vind = "1"
+Setting var L = "1u"
+Setting var VBS = "0"
+Setting var VDS = "0.58"
+Setting var VGS = "1.5"
+Setting var W = "4.5u"
 Setting temp(T) = 27
 
 *Info*    Netlist Directory =
-          /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.34/1/folded_cascode_project:opamp_TB_ClosedLoop:1/netlist
+          /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.180/1/folded_cascode_project:Mosfet_charecterisation:1/netlist
 
 
 *Info*    Data Directory    =
-          /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.34/1/folded_cascode_project:opamp_TB_ClosedLoop:1
+          /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.180/1/folded_cascode_project:Mosfet_charecterisation:1
 
 
 *Info*    Creating Netlist for Point ID (7 1)
 
 generate netlist...
-Begin Incremental Netlisting Apr 21 02:34:14 2025
-End netlisting Apr 21 02:34:14 2025
+Begin Incremental Netlisting Apr 21 10:26:52 2025
+End netlisting Apr 21 10:26:52 2025
 
-Netlisting Statistics:
-	Number of components:    8
-
-	Elapsed time:          0.0s
-Errors: 0	Warnings: 0
+	The netlist is up to date.
+	Time taken to compare the design with netlist:   0.0s
       ...successful.
 compose simulator input file...
       ...successful.
 
 *Info*    Running simulation on testbench [
-          folded_cascode_project:opamp_TB_ClosedLoop:1 ] for Point ID
-          (7 1).
+          folded_cascode_project:Mosfet_charecterisation:1 ] for
+          Point ID (7 1).
 
-Delete psf data in /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.34/1/folded_cascode_project:opamp_TB_ClosedLoop:1/psf.
+Delete psf data in /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.180/1/folded_cascode_project:Mosfet_charecterisation:1/psf.
 compose simulator input file...
       ...successful.
 start simulator if needed...
@@ -83,7 +81,7 @@ reading simulation data...
 
 
 *Info*    Run complete for Point ID (7 1) on testbench [
-          folded_cascode_project:opamp_TB_ClosedLoop:1 ].
+          folded_cascode_project:Mosfet_charecterisation:1 ].
 
 
 

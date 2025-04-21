@@ -11,12 +11,12 @@
 	View         = schematic
 	Simulator    = spectre
 	State Path   = $AXL_SETUPDB_DIR/test_states
-	State Name   = folded_cascode_project:opamp_TB_ClosedLoop:1_none_Interactive.29
-	Results DB   = /home/cadence/Desktop/user2/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.29.rdb
-	Results Dir  = /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.29/1/folded_cascode_project:opamp_TB_ClosedLoop:1
+	State Name   = folded_cascode_project:opamp_TB_ClosedLoop:1_none_Interactive.109
+	Results DB   = /home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.109.rdb
+	Results Dir  = /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.109/1/folded_cascode_project:opamp_TB_ClosedLoop:1
 	Results Loc  = /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data
 	Project Dir  = /home/cadence/simulation
-	Setup DB loc = /home/cadence/Desktop/user2/folded_cascode_project/opamp_TB_ClosedLoop/adexl
+	Setup DB loc = /home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl
 	File Encoding = 0
 
 
@@ -34,38 +34,30 @@ Resetting statistical vars
 
 *Info*    Setting parameter values ...
 
-Setting var VB2 = "1.73"
-Setting var VB3 = "1.65"
+Setting var VB2 = "1.8"
+Setting var VB3 = "1.27"
 Setting var Vincm = "1.65"
 Setting var Vind = "1"
 Setting temp(T) = 27
 
 *Info*    Netlist Directory =
-          /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.29/1/folded_cascode_project:opamp_TB_ClosedLoop:1/netlist
+          /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.109/1/folded_cascode_project:opamp_TB_ClosedLoop:1/netlist
 
 
 *Info*    Data Directory    =
-          /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.29/1/folded_cascode_project:opamp_TB_ClosedLoop:1
+          /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.109/1/folded_cascode_project:opamp_TB_ClosedLoop:1
 
 
 *Info*    Creating Netlist for Point ID (2 1)
 
 generate netlist...
-Begin Incremental Netlisting Apr 21 02:30:07 2025
-WARNING (OSSHNL-160): The primitive, 'analogLib/vsin/spectre', was not used in the last netlisting session in this
-current run directory. Therefore, re-netlisting all cell views where this
-primitive is instantiated.
-
-WARNING (OSSHNL-195): The value of the property "nlAction" on instance 'V5' in cell 'opamp_TB_ClosedLoop', view
-'schematic', has changed since the last netlisting session in the current run
-directory. Some cell views will be re-netlisted.
-
-End netlisting Apr 21 02:30:07 2025
+Begin Incremental Netlisting Apr 21 09:42:30 2025
+End netlisting Apr 21 09:42:30 2025
 
 Netlisting Statistics:
-	Number of components:    8
+	Number of components:   17
 
-	Elapsed time:          0.0s
+	Elapsed time:          1.0s (17.00/s)
 Errors: 0	Warnings: 0
       ...successful.
 compose simulator input file...
@@ -75,7 +67,7 @@ compose simulator input file...
           folded_cascode_project:opamp_TB_ClosedLoop:1 ] for Point ID
           (2 1).
 
-Delete psf data in /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.29/1/folded_cascode_project:opamp_TB_ClosedLoop:1/psf.
+Delete psf data in /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.109/1/folded_cascode_project:opamp_TB_ClosedLoop:1/psf.
 compose simulator input file...
       ...successful.
 start simulator if needed...
@@ -88,12 +80,6 @@ INFO (ADE-3071): Simulation completed successfully.
 reading simulation data...
       ...successful.
 *Info*    Client has finished evaluating ... 
-
-WARNING (OCN-6038): Results stb are not available for /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.29/1/folded_cascode_project:opamp_TB_ClosedLoop:1. Use results() for a list of available results.
-WARNING (OCN-6038): Results stb are not available for /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.29/1/folded_cascode_project:opamp_TB_ClosedLoop:1. Use results() for a list of available results.
-ERROR (ADEXL-2709): Evaluation of output 'dB20(mag(getData("loopGain" ?result "stb")))' returned 'nil' for point:'1' test:'folded_cascode_project:opamp_TB_ClosedLoop:1'
-	Expression:'dB20(mag(getData("loopGain" ?result "stb")))'.
-Ensure that the definition of output is correct.
 
 
 *Info*    Run complete for Point ID (2 1) on testbench [

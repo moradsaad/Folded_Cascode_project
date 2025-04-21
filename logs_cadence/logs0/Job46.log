@@ -7,16 +7,16 @@
 *Info*    Configuring the session ...
 
 	Library      = folded_cascode_project
-	Cell         = opamp_TB
+	Cell         = opamp_TB_ClosedLoop
 	View         = schematic
 	Simulator    = spectre
 	State Path   = $AXL_SETUPDB_DIR/test_states
-	State Name   = folded_cascode_project:opamp_TB:1_none_Interactive.31
-	Results DB   = /home/cadence/Desktop/user2/folded_cascode_project/opamp_TB/adexl/results/data/Interactive.31.rdb
-	Results Dir  = /home/cadence/simulation/folded_cascode_project/opamp_TB/adexl/results/data/Interactive.31/1/folded_cascode_project:opamp_TB:1
-	Results Loc  = /home/cadence/simulation/folded_cascode_project/opamp_TB/adexl/results/data
+	State Name   = folded_cascode_project:opamp_TB_ClosedLoop:1_none_Interactive.117
+	Results DB   = /home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.117.rdb
+	Results Dir  = /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.117/1/folded_cascode_project:opamp_TB_ClosedLoop:1
+	Results Loc  = /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data
 	Project Dir  = /home/cadence/simulation
-	Setup DB loc = /home/cadence/Desktop/user2/folded_cascode_project/opamp_TB/adexl
+	Setup DB loc = /home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl
 	File Encoding = 0
 
 
@@ -27,48 +27,65 @@
 
 
 
-*Info*    Run start for Point ID (3 1) on testbench [
-          folded_cascode_project:opamp_TB:1 ].
+*Info*    Run start for Point ID (10 1) on testbench [
+          folded_cascode_project:opamp_TB_ClosedLoop:1 ].
 
 Resetting statistical vars
 
 *Info*    Setting parameter values ...
 
-Setting var VB2 = "1.73"
-Setting var VB3 = "1.65"
-Setting var VICMAC = "0"
-Setting var VIDAC = "1"
-Setting var VIDDC = "0"
+Setting var Vincm = "1.65"
+Setting var Vind = "1"
 Setting temp(T) = 27
-Setting var u = "1"
 
 *Info*    Netlist Directory =
-          /home/cadence/simulation/folded_cascode_project/opamp_TB/adexl/results/data/Interactive.31/1/folded_cascode_project:opamp_TB:1/netlist
+          /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.117/1/folded_cascode_project:opamp_TB_ClosedLoop:1/netlist
 
 
 *Info*    Data Directory    =
-          /home/cadence/simulation/folded_cascode_project/opamp_TB/adexl/results/data/Interactive.31/1/folded_cascode_project:opamp_TB:1
+          /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.117/1/folded_cascode_project:opamp_TB_ClosedLoop:1
 
 
-*Info*    Creating Netlist for Point ID (3 1)
+*Info*    Creating Netlist for Point ID (10 1)
 
 generate netlist...
-Begin Incremental Netlisting Apr 21 05:30:47 2025
-End netlisting Apr 21 05:30:47 2025
+Begin Incremental Netlisting Apr 21 10:48:01 2025
+WARNING (OSSHNL-160): The primitive, 'analogLib/vsource/spectre', was not used in the last netlisting session in this
+current run directory. Therefore, re-netlisting all cell views where this
+primitive is instantiated.
+
+WARNING (OSSHNL-195): The value of the property "nlAction" on instance 'V1' in cell 'opamp_TB_ClosedLoop', view
+'schematic', has changed since the last netlisting session in the current run
+directory. Some cell views will be re-netlisted.
+
+WARNING (ADE-6001): The number of terminals specified in CDF termOrder are more
+           than the actual number of terminals in the cellview cell-view "folded_cascode_project" "opamp_sympol" "schematic"
+WARNING (ADE-6004): Mismatch was found between the terminals in the cellView and those on the
+           termOrder property on the CDF. Because of the mismatch, the CDF termOrder will
+           be ignored. The terminals in the cellView will be netlisted in the alphabetical
+           order of their names. Eliminate the mismatch if you want the CDF termOrder
+           property to be used for netlisting.
+           To edit CDF of a cell, 
+           i) Open CIW->Tools->CDF->Edit.
+           ii) Select Library Name & Cell Name.
+           iii) Click on the Edit button in the simulation information section of the
+                Edit CDF window.
+End netlisting Apr 21 10:48:01 2025
 
 Netlisting Statistics:
-	Number of components:   14
+	Number of components:   26
 
-	Elapsed time:          1.0s (14.00/s)
-Errors: 0	Warnings: 0
+	Elapsed time:          1.0s (26.00/s)
+Errors: 0	Warnings: 2
       ...successful.
 compose simulator input file...
       ...successful.
 
 *Info*    Running simulation on testbench [
-          folded_cascode_project:opamp_TB:1 ] for Point ID (3 1).
+          folded_cascode_project:opamp_TB_ClosedLoop:1 ] for Point ID
+          (10 1).
 
-Delete psf data in /home/cadence/simulation/folded_cascode_project/opamp_TB/adexl/results/data/Interactive.31/1/folded_cascode_project:opamp_TB:1/psf.
+Delete psf data in /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.117/1/folded_cascode_project:opamp_TB_ClosedLoop:1/psf.
 compose simulator input file...
       ...successful.
 start simulator if needed...
@@ -83,8 +100,8 @@ reading simulation data...
 *Info*    Client has finished evaluating ... 
 
 
-*Info*    Run complete for Point ID (3 1) on testbench [
-          folded_cascode_project:opamp_TB:1 ].
+*Info*    Run complete for Point ID (10 1) on testbench [
+          folded_cascode_project:opamp_TB_ClosedLoop:1 ].
 
 
 

@@ -94,18 +94,6 @@
 			</test>
 		</tests>
 		<vars>
-			<var>VB2
-				<value>1.8</value>
-				<dependentTests>
-					<dependentTest omitted="0">folded_cascode_project:opamp_TB_ClosedLoop:1</dependentTest>
-				</dependentTests>
-			</var>
-			<var>VB3
-				<value>1.27</value>
-				<dependentTests>
-					<dependentTest omitted="0">folded_cascode_project:opamp_TB_ClosedLoop:1</dependentTest>
-				</dependentTests>
-			</var>
 			<var>Vincm
 				<value>1.65</value>
 				<dependentTests>
@@ -133,7 +121,7 @@
 		</plottingoptions>
 	</active>
 	<history>History
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.97
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.109
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -167,607 +155,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>folded_cascode_project:opamp_TB_ClosedLoop:1_none_Interactive.97</value>
-							</option>
-						</tooloptions>
-						<origoptions>
-							<option>cell
-								<value>opamp_TB_ClosedLoop</value>
-							</option>
-							<option>lib
-								<value>folded_cascode_project</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-						<outputs>
-							<output>Acl
-								<evalType>point</evalType>
-							</output>
-							<output>settlingTime(VT("/Vout") 1.5 nil 2 nil 4 nil "time")
-								<evalType>point</evalType>
-							</output>
-							<output>settlingTime(VT("/Vout") 1.5 nil 2 nil 10 nil "time")
-								<evalType>point</evalType>
-							</output>
-							<output>settlingTime(VT("/Vout") 1.5 nil 2 nil 100 nil "time")
-								<evalType>point</evalType>
-							</output>
-							<output>settlingTime(VT("/Vout") 1.5 nil 2 nil 70 nil "time")
-								<evalType>point</evalType>
-							</output>
-							<output>settlingTime(VT("/Vout") 1.5 nil 1.7 nil 2 nil "time")
-								<evalType>point</evalType>
-							</output>
-							<output>settlingTime(VT("/Vout") 1.5 nil 2 nil 1 nil "time")
-								<evalType>point</evalType>
-							</output>
-							<output>settlingTime(VT("/Vout") 1.5 nil 1.7 nil 1 nil "time")
-								<evalType>point</evalType>
-							</output>
-							<output>settlingTime(VT("/Vout") 1.5 nil 1.6 nil 2 nil "time")
-								<evalType>point</evalType>
-							</output>
-							<output>settlingTime(VT("/Vout") 1.5 nil 1.6 nil 1 nil "time")
-								<evalType>point</evalType>
-							</output>
-							<output>settlingTime(VT("/Vout") 1 nil 2.4 nil 2 nil "time")
-								<evalType>point</evalType>
-							</output>
-							<output>settlingTime(VT("/Vout") 1 nil 2.4 nil 1 nil "time")
-								<evalType>point</evalType>
-							</output>
-							<output>slew rate
-								<evalType>point</evalType>
-							</output>
-						</outputs>
-					</test>
-				</tests>
-				<vars>
-					<var>VB2
-						<value>1.27</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode_project:opamp_TB_ClosedLoop:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>VB3
-						<value>1.27</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode_project:opamp_TB_ClosedLoop:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>Vincm
-						<value>1.65</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode_project:opamp_TB_ClosedLoop:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>Vind
-						<value>1</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode_project:opamp_TB_ClosedLoop:1</dependentTest>
-						</dependentTests>
-					</var>
-				</vars>
-				<overwritehistoryname>Interactive.0</overwritehistoryname>
-				<plottingoptions>
-					<plottingoption>plottype
-						<value>None</value>
-					</plottingoption>
-					<plottingoption>usewaveformtemplate
-						<value>no</value>
-					</plottingoption>
-					<plottingoption>waveformtemplate
-						<value></value>
-					</plottingoption>
-				</plottingoptions>
-				<sortVariableValues>0</sortVariableValues>
-			</checkpoint>
-			<timestamp>Mon Apr 21 06:45:37 2025
-</timestamp>
-			<resultsname>/home/cadence/Desktop/user2/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.97.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.97.rdb</simresults>
-			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
-			<netlistdelstrategy>SaveAll</netlistdelstrategy>
-			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/berkeley_cadence_064537468</localpsfdir>
-			<psfdir>/home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.97</psfdir>
-			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.97</simdir>
-			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
-			<runlog>/home/cadence/Desktop/user2/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.97.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.97.log</runlogfile>
-			<schematicpoint></schematicpoint>
-			<test>all</test>
-		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.98
-			<checkpoint>
-				<corners>
-					<corner enabled="1">_default</corner>
-				</corners>
-				<extensions>
-					<extension>Parasitics
-						<callback>_parSetupDBExtensionCB</callback>
-						<iconvalue></iconvalue>
-						<icontype></icontype>
-					</extension>
-				</extensions>
-				<currentmode>Single Run, Sweeps and Corners</currentmode>
-				<overwritehistory>0</overwritehistory>
-				<tests>
-					<test>folded_cascode_project:opamp_TB_ClosedLoop:1
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>opamp_TB_ClosedLoop</value>
-							</option>
-							<option>lib
-								<value>folded_cascode_project</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>state
-								<value>folded_cascode_project:opamp_TB_ClosedLoop:1_none_Interactive.98</value>
-							</option>
-						</tooloptions>
-						<origoptions>
-							<option>cell
-								<value>opamp_TB_ClosedLoop</value>
-							</option>
-							<option>lib
-								<value>folded_cascode_project</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-						<outputs>
-							<output>Acl
-								<evalType>point</evalType>
-							</output>
-							<output>settlingTime(VT("/Vout") 1.5 nil 2 nil 4 nil "time")
-								<evalType>point</evalType>
-							</output>
-							<output>settlingTime(VT("/Vout") 1.5 nil 2 nil 10 nil "time")
-								<evalType>point</evalType>
-							</output>
-							<output>settlingTime(VT("/Vout") 1.5 nil 2 nil 100 nil "time")
-								<evalType>point</evalType>
-							</output>
-							<output>settlingTime(VT("/Vout") 1.5 nil 2 nil 70 nil "time")
-								<evalType>point</evalType>
-							</output>
-							<output>settlingTime(VT("/Vout") 1.5 nil 1.7 nil 2 nil "time")
-								<evalType>point</evalType>
-							</output>
-							<output>settlingTime(VT("/Vout") 1.5 nil 2 nil 1 nil "time")
-								<evalType>point</evalType>
-							</output>
-							<output>settlingTime(VT("/Vout") 1.5 nil 1.7 nil 1 nil "time")
-								<evalType>point</evalType>
-							</output>
-							<output>settlingTime(VT("/Vout") 1.5 nil 1.6 nil 2 nil "time")
-								<evalType>point</evalType>
-							</output>
-							<output>settlingTime(VT("/Vout") 1.5 nil 1.6 nil 1 nil "time")
-								<evalType>point</evalType>
-							</output>
-							<output>settlingTime(VT("/Vout") 1 nil 2.4 nil 2 nil "time")
-								<evalType>point</evalType>
-							</output>
-							<output>settlingTime(VT("/Vout") 1 nil 2.4 nil 1 nil "time")
-								<evalType>point</evalType>
-							</output>
-							<output>slew rate
-								<evalType>point</evalType>
-							</output>
-						</outputs>
-					</test>
-				</tests>
-				<vars>
-					<var>VB2
-						<value>1.27</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode_project:opamp_TB_ClosedLoop:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>VB3
-						<value>1.27</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode_project:opamp_TB_ClosedLoop:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>Vincm
-						<value>1.65</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode_project:opamp_TB_ClosedLoop:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>Vind
-						<value>1</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode_project:opamp_TB_ClosedLoop:1</dependentTest>
-						</dependentTests>
-					</var>
-				</vars>
-				<overwritehistoryname>Interactive.0</overwritehistoryname>
-				<plottingoptions>
-					<plottingoption>plottype
-						<value>None</value>
-					</plottingoption>
-					<plottingoption>usewaveformtemplate
-						<value>no</value>
-					</plottingoption>
-					<plottingoption>waveformtemplate
-						<value></value>
-					</plottingoption>
-				</plottingoptions>
-				<sortVariableValues>0</sortVariableValues>
-			</checkpoint>
-			<timestamp>Mon Apr 21 06:47:53 2025
-</timestamp>
-			<resultsname>/home/cadence/Desktop/user2/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.98.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.98.rdb</simresults>
-			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
-			<netlistdelstrategy>SaveAll</netlistdelstrategy>
-			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/berkeley_cadence_064753186</localpsfdir>
-			<psfdir>/home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.98</psfdir>
-			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.98</simdir>
-			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
-			<runlog>/home/cadence/Desktop/user2/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.98.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.98.log</runlogfile>
-			<schematicpoint></schematicpoint>
-			<test>all</test>
-		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.99
-			<checkpoint>
-				<corners>
-					<corner enabled="1">_default</corner>
-				</corners>
-				<extensions>
-					<extension>Parasitics
-						<callback>_parSetupDBExtensionCB</callback>
-						<iconvalue></iconvalue>
-						<icontype></icontype>
-					</extension>
-				</extensions>
-				<currentmode>Single Run, Sweeps and Corners</currentmode>
-				<overwritehistory>0</overwritehistory>
-				<tests>
-					<test>folded_cascode_project:opamp_TB_ClosedLoop:1
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>opamp_TB_ClosedLoop</value>
-							</option>
-							<option>lib
-								<value>folded_cascode_project</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>state
-								<value>folded_cascode_project:opamp_TB_ClosedLoop:1_none_Interactive.99</value>
-							</option>
-						</tooloptions>
-						<origoptions>
-							<option>cell
-								<value>opamp_TB_ClosedLoop</value>
-							</option>
-							<option>lib
-								<value>folded_cascode_project</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-						<outputs>
-							<output>Acl
-								<evalType>point</evalType>
-							</output>
-							<output>settlingTime(VT("/Vout") 1.5 nil 2 nil 4 nil "time")
-								<evalType>point</evalType>
-							</output>
-							<output>settlingTime(VT("/Vout") 1.5 nil 2 nil 10 nil "time")
-								<evalType>point</evalType>
-							</output>
-							<output>settlingTime(VT("/Vout") 1.5 nil 2 nil 100 nil "time")
-								<evalType>point</evalType>
-							</output>
-							<output>settlingTime(VT("/Vout") 1.5 nil 2 nil 70 nil "time")
-								<evalType>point</evalType>
-							</output>
-							<output>settlingTime(VT("/Vout") 1.5 nil 1.7 nil 2 nil "time")
-								<evalType>point</evalType>
-							</output>
-							<output>settlingTime(VT("/Vout") 1.5 nil 2 nil 1 nil "time")
-								<evalType>point</evalType>
-							</output>
-							<output>settlingTime(VT("/Vout") 1.5 nil 1.7 nil 1 nil "time")
-								<evalType>point</evalType>
-							</output>
-							<output>settlingTime(VT("/Vout") 1.5 nil 1.6 nil 2 nil "time")
-								<evalType>point</evalType>
-							</output>
-							<output>settlingTime(VT("/Vout") 1.5 nil 1.6 nil 1 nil "time")
-								<evalType>point</evalType>
-							</output>
-							<output>settlingTime(VT("/Vout") 1 nil 2.4 nil 2 nil "time")
-								<evalType>point</evalType>
-							</output>
-							<output>settlingTime(VT("/Vout") 1 nil 2.4 nil 1 nil "time")
-								<evalType>point</evalType>
-							</output>
-							<output>slew rate
-								<evalType>point</evalType>
-							</output>
-						</outputs>
-					</test>
-				</tests>
-				<vars>
-					<var>VB2
-						<value>1.27</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode_project:opamp_TB_ClosedLoop:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>VB3
-						<value>1.27</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode_project:opamp_TB_ClosedLoop:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>Vincm
-						<value>1.65</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode_project:opamp_TB_ClosedLoop:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>Vind
-						<value>1</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode_project:opamp_TB_ClosedLoop:1</dependentTest>
-						</dependentTests>
-					</var>
-				</vars>
-				<overwritehistoryname>Interactive.0</overwritehistoryname>
-				<plottingoptions>
-					<plottingoption>plottype
-						<value>None</value>
-					</plottingoption>
-					<plottingoption>usewaveformtemplate
-						<value>no</value>
-					</plottingoption>
-					<plottingoption>waveformtemplate
-						<value></value>
-					</plottingoption>
-				</plottingoptions>
-				<sortVariableValues>0</sortVariableValues>
-			</checkpoint>
-			<timestamp>Mon Apr 21 06:51:05 2025
-</timestamp>
-			<resultsname>/home/cadence/Desktop/user2/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.99.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.99.rdb</simresults>
-			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
-			<netlistdelstrategy>SaveAll</netlistdelstrategy>
-			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/berkeley_cadence_065105146</localpsfdir>
-			<psfdir>/home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.99</psfdir>
-			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.99</simdir>
-			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
-			<runlog>/home/cadence/Desktop/user2/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.99.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.99.log</runlogfile>
-			<schematicpoint></schematicpoint>
-			<test>all</test>
-		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.100
-			<checkpoint>
-				<corners>
-					<corner enabled="1">_default</corner>
-				</corners>
-				<extensions>
-					<extension>Parasitics
-						<callback>_parSetupDBExtensionCB</callback>
-						<iconvalue></iconvalue>
-						<icontype></icontype>
-					</extension>
-				</extensions>
-				<currentmode>Single Run, Sweeps and Corners</currentmode>
-				<overwritehistory>0</overwritehistory>
-				<tests>
-					<test>folded_cascode_project:opamp_TB_ClosedLoop:1
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>opamp_TB_ClosedLoop</value>
-							</option>
-							<option>lib
-								<value>folded_cascode_project</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>state
-								<value>folded_cascode_project:opamp_TB_ClosedLoop:1_none_Interactive.100</value>
-							</option>
-						</tooloptions>
-						<origoptions>
-							<option>cell
-								<value>opamp_TB_ClosedLoop</value>
-							</option>
-							<option>lib
-								<value>folded_cascode_project</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-						<outputs>
-							<output>Acl
-								<evalType>point</evalType>
-							</output>
-							<output>settlingTime(VT("/Vout") 1.5 nil 2 nil 4 nil "time")
-								<evalType>point</evalType>
-							</output>
-							<output>settlingTime(VT("/Vout") 1.5 nil 2 nil 10 nil "time")
-								<evalType>point</evalType>
-							</output>
-							<output>settlingTime(VT("/Vout") 1.5 nil 2 nil 100 nil "time")
-								<evalType>point</evalType>
-							</output>
-							<output>settlingTime(VT("/Vout") 1.5 nil 2 nil 70 nil "time")
-								<evalType>point</evalType>
-							</output>
-							<output>settlingTime(VT("/Vout") 1.5 nil 1.7 nil 2 nil "time")
-								<evalType>point</evalType>
-							</output>
-							<output>settlingTime(VT("/Vout") 1.5 nil 2 nil 1 nil "time")
-								<evalType>point</evalType>
-							</output>
-							<output>settlingTime(VT("/Vout") 1.5 nil 1.7 nil 1 nil "time")
-								<evalType>point</evalType>
-							</output>
-							<output>settlingTime(VT("/Vout") 1.5 nil 1.6 nil 2 nil "time")
-								<evalType>point</evalType>
-							</output>
-							<output>settlingTime(VT("/Vout") 1.5 nil 1.6 nil 1 nil "time")
-								<evalType>point</evalType>
-							</output>
-							<output>settlingTime(VT("/Vout") 1 nil 2.4 nil 2 nil "time")
-								<evalType>point</evalType>
-							</output>
-							<output>settlingTime(VT("/Vout") 1 nil 2.4 nil 1 nil "time")
-								<evalType>point</evalType>
-							</output>
-							<output>slew rate
-								<evalType>point</evalType>
-							</output>
-						</outputs>
-					</test>
-				</tests>
-				<vars>
-					<var>VB2
-						<value>1.27</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode_project:opamp_TB_ClosedLoop:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>VB3
-						<value>1.27</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode_project:opamp_TB_ClosedLoop:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>Vincm
-						<value>1.65</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode_project:opamp_TB_ClosedLoop:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>Vind
-						<value>1</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode_project:opamp_TB_ClosedLoop:1</dependentTest>
-						</dependentTests>
-					</var>
-				</vars>
-				<overwritehistoryname>Interactive.0</overwritehistoryname>
-				<plottingoptions>
-					<plottingoption>plottype
-						<value>None</value>
-					</plottingoption>
-					<plottingoption>usewaveformtemplate
-						<value>no</value>
-					</plottingoption>
-					<plottingoption>waveformtemplate
-						<value></value>
-					</plottingoption>
-				</plottingoptions>
-				<sortVariableValues>0</sortVariableValues>
-			</checkpoint>
-			<timestamp>Mon Apr 21 06:51:32 2025
-</timestamp>
-			<resultsname>/home/cadence/Desktop/user2/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.100.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.100.rdb</simresults>
-			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
-			<netlistdelstrategy>SaveAll</netlistdelstrategy>
-			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/berkeley_cadence_065132830</localpsfdir>
-			<psfdir>/home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.100</psfdir>
-			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.100</simdir>
-			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
-			<runlog>/home/cadence/Desktop/user2/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.100.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.100.log</runlogfile>
-			<schematicpoint></schematicpoint>
-			<test>all</test>
-		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.101
-			<checkpoint>
-				<corners>
-					<corner enabled="1">_default</corner>
-				</corners>
-				<extensions>
-					<extension>Parasitics
-						<callback>_parSetupDBExtensionCB</callback>
-						<iconvalue></iconvalue>
-						<icontype></icontype>
-					</extension>
-				</extensions>
-				<currentmode>Single Run, Sweeps and Corners</currentmode>
-				<overwritehistory>0</overwritehistory>
-				<tests>
-					<test>folded_cascode_project:opamp_TB_ClosedLoop:1
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>opamp_TB_ClosedLoop</value>
-							</option>
-							<option>lib
-								<value>folded_cascode_project</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>state
-								<value>folded_cascode_project:opamp_TB_ClosedLoop:1_none_Interactive.101</value>
+								<value>folded_cascode_project:opamp_TB_ClosedLoop:1_none_Interactive.109</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -867,23 +255,23 @@
 				</plottingoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Mon Apr 21 06:53:20 2025
+			<timestamp>Mon Apr 21 09:42:27 2025
 </timestamp>
-			<resultsname>/home/cadence/Desktop/user2/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.101.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.101.rdb</simresults>
+			<resultsname>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.109.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.109.rdb</simresults>
 			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/berkeley_cadence_065320916</localpsfdir>
-			<psfdir>/home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.101</psfdir>
-			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.101</simdir>
+			<localpsfdir>/tmp/berkeley_cadence_094227146</localpsfdir>
+			<psfdir>/home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.109</psfdir>
+			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.109</simdir>
 			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
-			<runlog>/home/cadence/Desktop/user2/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.101.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.101.log</runlogfile>
+			<runlog>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.109.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.109.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.102
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.110
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -917,7 +305,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>folded_cascode_project:opamp_TB_ClosedLoop:1_none_Interactive.102</value>
+								<value>folded_cascode_project:opamp_TB_ClosedLoop:1_none_Interactive.110</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -1017,23 +405,23 @@
 				</plottingoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Mon Apr 21 06:53:57 2025
+			<timestamp>Mon Apr 21 10:14:54 2025
 </timestamp>
-			<resultsname>/home/cadence/Desktop/user2/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.102.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.102.rdb</simresults>
+			<resultsname>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.110.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.110.rdb</simresults>
 			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/berkeley_cadence_065357176</localpsfdir>
-			<psfdir>/home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.102</psfdir>
-			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.102</simdir>
+			<localpsfdir>/tmp/berkeley_cadence_101454434</localpsfdir>
+			<psfdir>/home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.110</psfdir>
+			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.110</simdir>
 			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
-			<runlog>/home/cadence/Desktop/user2/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.102.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.102.log</runlogfile>
+			<runlog>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.110.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.110.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.103
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.111
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -1067,7 +455,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>folded_cascode_project:opamp_TB_ClosedLoop:1_none_Interactive.103</value>
+								<value>folded_cascode_project:opamp_TB_ClosedLoop:1_none_Interactive.111</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -1167,23 +555,23 @@
 				</plottingoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Mon Apr 21 06:55:58 2025
+			<timestamp>Mon Apr 21 10:18:31 2025
 </timestamp>
-			<resultsname>/home/cadence/Desktop/user2/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.103.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.103.rdb</simresults>
+			<resultsname>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.111.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.111.rdb</simresults>
 			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/berkeley_cadence_065558149</localpsfdir>
-			<psfdir>/home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.103</psfdir>
-			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.103</simdir>
+			<localpsfdir>/tmp/berkeley_cadence_101831299</localpsfdir>
+			<psfdir>/home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.111</psfdir>
+			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.111</simdir>
 			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
-			<runlog>/home/cadence/Desktop/user2/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.103.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.103.log</runlogfile>
+			<runlog>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.111.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.111.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.104
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.112
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -1217,7 +605,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>folded_cascode_project:opamp_TB_ClosedLoop:1_none_Interactive.104</value>
+								<value>folded_cascode_project:opamp_TB_ClosedLoop:1_none_Interactive.112</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -1317,23 +705,23 @@
 				</plottingoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Mon Apr 21 06:56:20 2025
+			<timestamp>Mon Apr 21 10:35:41 2025
 </timestamp>
-			<resultsname>/home/cadence/Desktop/user2/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.104.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.104.rdb</simresults>
+			<resultsname>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.112.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.112.rdb</simresults>
 			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/berkeley_cadence_065620133</localpsfdir>
-			<psfdir>/home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.104</psfdir>
-			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.104</simdir>
+			<localpsfdir>/tmp/berkeley_cadence_103541528</localpsfdir>
+			<psfdir>/home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.112</psfdir>
+			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.112</simdir>
 			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
-			<runlog>/home/cadence/Desktop/user2/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.104.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.104.log</runlogfile>
+			<runlog>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.112.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.112.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.105
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.113
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -1367,7 +755,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>folded_cascode_project:opamp_TB_ClosedLoop:1_none_Interactive.105</value>
+								<value>folded_cascode_project:opamp_TB_ClosedLoop:1_none_Interactive.113</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -1467,23 +855,23 @@
 				</plottingoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Mon Apr 21 07:12:46 2025
+			<timestamp>Mon Apr 21 10:37:01 2025
 </timestamp>
-			<resultsname>/home/cadence/Desktop/user2/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.105.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.105.rdb</simresults>
+			<resultsname>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.113.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.113.rdb</simresults>
 			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/berkeley_cadence_071246155</localpsfdir>
-			<psfdir>/home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.105</psfdir>
-			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.105</simdir>
+			<localpsfdir>/tmp/berkeley_cadence_103701857</localpsfdir>
+			<psfdir>/home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.113</psfdir>
+			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.113</simdir>
 			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
-			<runlog>/home/cadence/Desktop/user2/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.105.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.105.log</runlogfile>
+			<runlog>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.113.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.113.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.106
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.114
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -1517,7 +905,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>folded_cascode_project:opamp_TB_ClosedLoop:1_none_Interactive.106</value>
+								<value>folded_cascode_project:opamp_TB_ClosedLoop:1_none_Interactive.114</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -1617,19 +1005,571 @@
 				</plottingoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Mon Apr 21 07:56:11 2025
+			<timestamp>Mon Apr 21 10:37:27 2025
 </timestamp>
-			<resultsname>/home/cadence/Desktop/user2/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.106.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.106.rdb</simresults>
+			<resultsname>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.114.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.114.rdb</simresults>
 			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/berkeley_cadence_075611256</localpsfdir>
-			<psfdir>/home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.106</psfdir>
-			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.106</simdir>
+			<localpsfdir>/tmp/berkeley_cadence_103727277</localpsfdir>
+			<psfdir>/home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.114</psfdir>
+			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.114</simdir>
 			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
-			<runlog>/home/cadence/Desktop/user2/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.106.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.106.log</runlogfile>
+			<runlog>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.114.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.114.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.115
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>folded_cascode_project:opamp_TB_ClosedLoop:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>opamp_TB_ClosedLoop</value>
+							</option>
+							<option>lib
+								<value>folded_cascode_project</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>folded_cascode_project:opamp_TB_ClosedLoop:1_none_Interactive.115</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>opamp_TB_ClosedLoop</value>
+							</option>
+							<option>lib
+								<value>folded_cascode_project</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>Acl
+								<evalType>point</evalType>
+							</output>
+							<output>settlingTime(VT("/Vout") 1.5 nil 2 nil 4 nil "time")
+								<evalType>point</evalType>
+							</output>
+							<output>settlingTime(VT("/Vout") 1.5 nil 2 nil 10 nil "time")
+								<evalType>point</evalType>
+							</output>
+							<output>settlingTime(VT("/Vout") 1.5 nil 2 nil 100 nil "time")
+								<evalType>point</evalType>
+							</output>
+							<output>settlingTime(VT("/Vout") 1.5 nil 2 nil 70 nil "time")
+								<evalType>point</evalType>
+							</output>
+							<output>settlingTime(VT("/Vout") 1.5 nil 1.7 nil 2 nil "time")
+								<evalType>point</evalType>
+							</output>
+							<output>settlingTime(VT("/Vout") 1.5 nil 2 nil 1 nil "time")
+								<evalType>point</evalType>
+							</output>
+							<output>settlingTime(VT("/Vout") 1.5 nil 1.7 nil 1 nil "time")
+								<evalType>point</evalType>
+							</output>
+							<output>settlingTime(VT("/Vout") 1.5 nil 1.6 nil 2 nil "time")
+								<evalType>point</evalType>
+							</output>
+							<output>settlingTime(VT("/Vout") 1.5 nil 1.6 nil 1 nil "time")
+								<evalType>point</evalType>
+							</output>
+							<output>settlingTime(VT("/Vout") 1 nil 2.4 nil 2 nil "time")
+								<evalType>point</evalType>
+							</output>
+							<output>settlingTime(VT("/Vout") 1 nil 2.4 nil 1 nil "time")
+								<evalType>point</evalType>
+							</output>
+							<output>slew rate
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+				</tests>
+				<vars>
+					<var>Vincm
+						<value>1.65</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode_project:opamp_TB_ClosedLoop:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vind
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode_project:opamp_TB_ClosedLoop:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Mon Apr 21 10:41:55 2025
+</timestamp>
+			<resultsname>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.115.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.115.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_104156050</localpsfdir>
+			<psfdir>/home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.115</psfdir>
+			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.115</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.115.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.115.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.116
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>folded_cascode_project:opamp_TB_ClosedLoop:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>opamp_TB_ClosedLoop</value>
+							</option>
+							<option>lib
+								<value>folded_cascode_project</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>folded_cascode_project:opamp_TB_ClosedLoop:1_none_Interactive.116</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>opamp_TB_ClosedLoop</value>
+							</option>
+							<option>lib
+								<value>folded_cascode_project</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>Acl
+								<evalType>point</evalType>
+							</output>
+							<output>settlingTime(VT("/Vout") 1.5 nil 2 nil 4 nil "time")
+								<evalType>point</evalType>
+							</output>
+							<output>settlingTime(VT("/Vout") 1.5 nil 2 nil 10 nil "time")
+								<evalType>point</evalType>
+							</output>
+							<output>settlingTime(VT("/Vout") 1.5 nil 2 nil 100 nil "time")
+								<evalType>point</evalType>
+							</output>
+							<output>settlingTime(VT("/Vout") 1.5 nil 2 nil 70 nil "time")
+								<evalType>point</evalType>
+							</output>
+							<output>settlingTime(VT("/Vout") 1.5 nil 1.7 nil 2 nil "time")
+								<evalType>point</evalType>
+							</output>
+							<output>settlingTime(VT("/Vout") 1.5 nil 2 nil 1 nil "time")
+								<evalType>point</evalType>
+							</output>
+							<output>settlingTime(VT("/Vout") 1.5 nil 1.7 nil 1 nil "time")
+								<evalType>point</evalType>
+							</output>
+							<output>settlingTime(VT("/Vout") 1.5 nil 1.6 nil 2 nil "time")
+								<evalType>point</evalType>
+							</output>
+							<output>settlingTime(VT("/Vout") 1.5 nil 1.6 nil 1 nil "time")
+								<evalType>point</evalType>
+							</output>
+							<output>settlingTime(VT("/Vout") 1 nil 2.4 nil 2 nil "time")
+								<evalType>point</evalType>
+							</output>
+							<output>settlingTime(VT("/Vout") 1 nil 2.4 nil 1 nil "time")
+								<evalType>point</evalType>
+							</output>
+							<output>slew rate
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+				</tests>
+				<vars>
+					<var>Vincm
+						<value>1.65</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode_project:opamp_TB_ClosedLoop:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vind
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode_project:opamp_TB_ClosedLoop:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Mon Apr 21 10:43:46 2025
+</timestamp>
+			<resultsname>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.116.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.116.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_104346769</localpsfdir>
+			<psfdir>/home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.116</psfdir>
+			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.116</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.116.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.116.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.117
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>folded_cascode_project:opamp_TB_ClosedLoop:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>opamp_TB_ClosedLoop</value>
+							</option>
+							<option>lib
+								<value>folded_cascode_project</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>folded_cascode_project:opamp_TB_ClosedLoop:1_none_Interactive.117</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>opamp_TB_ClosedLoop</value>
+							</option>
+							<option>lib
+								<value>folded_cascode_project</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>Acl
+								<evalType>point</evalType>
+							</output>
+							<output>settlingTime(VT("/Vout") 1.5 nil 2 nil 4 nil "time")
+								<evalType>point</evalType>
+							</output>
+							<output>settlingTime(VT("/Vout") 1.5 nil 2 nil 10 nil "time")
+								<evalType>point</evalType>
+							</output>
+							<output>settlingTime(VT("/Vout") 1.5 nil 2 nil 100 nil "time")
+								<evalType>point</evalType>
+							</output>
+							<output>settlingTime(VT("/Vout") 1.5 nil 2 nil 70 nil "time")
+								<evalType>point</evalType>
+							</output>
+							<output>settlingTime(VT("/Vout") 1.5 nil 1.7 nil 2 nil "time")
+								<evalType>point</evalType>
+							</output>
+							<output>settlingTime(VT("/Vout") 1.5 nil 2 nil 1 nil "time")
+								<evalType>point</evalType>
+							</output>
+							<output>settlingTime(VT("/Vout") 1.5 nil 1.7 nil 1 nil "time")
+								<evalType>point</evalType>
+							</output>
+							<output>settlingTime(VT("/Vout") 1.5 nil 1.6 nil 2 nil "time")
+								<evalType>point</evalType>
+							</output>
+							<output>settlingTime(VT("/Vout") 1.5 nil 1.6 nil 1 nil "time")
+								<evalType>point</evalType>
+							</output>
+							<output>settlingTime(VT("/Vout") 1 nil 2.4 nil 2 nil "time")
+								<evalType>point</evalType>
+							</output>
+							<output>settlingTime(VT("/Vout") 1 nil 2.4 nil 1 nil "time")
+								<evalType>point</evalType>
+							</output>
+							<output>slew rate
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+				</tests>
+				<vars>
+					<var>Vincm
+						<value>1.65</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode_project:opamp_TB_ClosedLoop:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vind
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode_project:opamp_TB_ClosedLoop:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Mon Apr 21 10:47:57 2025
+</timestamp>
+			<resultsname>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.117.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.117.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_104757414</localpsfdir>
+			<psfdir>/home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.117</psfdir>
+			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.117</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.117.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.117.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.118
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>folded_cascode_project:opamp_TB_ClosedLoop:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>opamp_TB_ClosedLoop</value>
+							</option>
+							<option>lib
+								<value>folded_cascode_project</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>folded_cascode_project:opamp_TB_ClosedLoop:1_none_Interactive.118</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>opamp_TB_ClosedLoop</value>
+							</option>
+							<option>lib
+								<value>folded_cascode_project</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>Acl
+								<evalType>point</evalType>
+							</output>
+							<output>settlingTime(VT("/Vout") 1.5 nil 2 nil 4 nil "time")
+								<evalType>point</evalType>
+							</output>
+							<output>settlingTime(VT("/Vout") 1.5 nil 2 nil 10 nil "time")
+								<evalType>point</evalType>
+							</output>
+							<output>settlingTime(VT("/Vout") 1.5 nil 2 nil 100 nil "time")
+								<evalType>point</evalType>
+							</output>
+							<output>settlingTime(VT("/Vout") 1.5 nil 2 nil 70 nil "time")
+								<evalType>point</evalType>
+							</output>
+							<output>settlingTime(VT("/Vout") 1.5 nil 1.7 nil 2 nil "time")
+								<evalType>point</evalType>
+							</output>
+							<output>settlingTime(VT("/Vout") 1.5 nil 2 nil 1 nil "time")
+								<evalType>point</evalType>
+							</output>
+							<output>settlingTime(VT("/Vout") 1.5 nil 1.7 nil 1 nil "time")
+								<evalType>point</evalType>
+							</output>
+							<output>settlingTime(VT("/Vout") 1.5 nil 1.6 nil 2 nil "time")
+								<evalType>point</evalType>
+							</output>
+							<output>settlingTime(VT("/Vout") 1.5 nil 1.6 nil 1 nil "time")
+								<evalType>point</evalType>
+							</output>
+							<output>settlingTime(VT("/Vout") 1 nil 2.4 nil 2 nil "time")
+								<evalType>point</evalType>
+							</output>
+							<output>settlingTime(VT("/Vout") 1 nil 2.4 nil 1 nil "time")
+								<evalType>point</evalType>
+							</output>
+							<output>slew rate
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+				</tests>
+				<vars>
+					<var>Vincm
+						<value>1.65</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode_project:opamp_TB_ClosedLoop:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vind
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode_project:opamp_TB_ClosedLoop:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Mon Apr 21 10:49:53 2025
+</timestamp>
+			<resultsname>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.118.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.118.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_104953560</localpsfdir>
+			<psfdir>/home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.118</psfdir>
+			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.118</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.118.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.118.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>

@@ -7,16 +7,16 @@
 *Info*    Configuring the session ...
 
 	Library      = folded_cascode_project
-	Cell         = Mosfet_charecterisation
+	Cell         = opamp_TB_ClosedLoop
 	View         = schematic
 	Simulator    = spectre
 	State Path   = $AXL_SETUPDB_DIR/test_states
-	State Name   = folded_cascode_project:Mosfet_charecterisation:1_none_Interactive.180
-	Results DB   = /home/cadence/Final_Design/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.180.rdb
-	Results Dir  = /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.180/1/folded_cascode_project:Mosfet_charecterisation:1
-	Results Loc  = /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data
+	State Name   = folded_cascode_project:opamp_TB_ClosedLoop:1_none_Interactive.123
+	Results DB   = /home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.123.rdb
+	Results Dir  = /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.123/1/folded_cascode_project:opamp_TB_ClosedLoop:1
+	Results Loc  = /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data
 	Project Dir  = /home/cadence/simulation
-	Setup DB loc = /home/cadence/Final_Design/folded_cascode_project/Mosfet_charecterisation/adexl
+	Setup DB loc = /home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl
 	File Encoding = 0
 
 
@@ -27,45 +27,57 @@
 
 
 
-*Info*    Run start for Point ID (7 1) on testbench [
-          folded_cascode_project:Mosfet_charecterisation:1 ].
+*Info*    Run start for Point ID (4 1) on testbench [
+          folded_cascode_project:opamp_TB_ClosedLoop:1 ].
 
 Resetting statistical vars
 
 *Info*    Setting parameter values ...
 
-Setting var L = "1u"
-Setting var VBS = "0"
-Setting var VDS = "0.58"
-Setting var VGS = "1.5"
-Setting var W = "4.5u"
+Setting var Vincm = "1.65"
+Setting var Vind = "1"
 Setting temp(T) = 27
 
 *Info*    Netlist Directory =
-          /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.180/1/folded_cascode_project:Mosfet_charecterisation:1/netlist
+          /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.123/1/folded_cascode_project:opamp_TB_ClosedLoop:1/netlist
 
 
 *Info*    Data Directory    =
-          /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.180/1/folded_cascode_project:Mosfet_charecterisation:1
+          /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.123/1/folded_cascode_project:opamp_TB_ClosedLoop:1
 
 
-*Info*    Creating Netlist for Point ID (7 1)
+*Info*    Creating Netlist for Point ID (4 1)
 
 generate netlist...
-Begin Incremental Netlisting Apr 21 10:26:52 2025
-End netlisting Apr 21 10:26:52 2025
+Begin Incremental Netlisting Apr 23 12:21:40 2025
+WARNING (ADE-6001): The number of terminals specified in CDF termOrder are more
+           than the actual number of terminals in the cellview cell-view "folded_cascode_project" "opamp_sympol" "schematic"
+WARNING (ADE-6004): Mismatch was found between the terminals in the cellView and those on the
+           termOrder property on the CDF. Because of the mismatch, the CDF termOrder will
+           be ignored. The terminals in the cellView will be netlisted in the alphabetical
+           order of their names. Eliminate the mismatch if you want the CDF termOrder
+           property to be used for netlisting.
+           To edit CDF of a cell, 
+           i) Open CIW->Tools->CDF->Edit.
+           ii) Select Library Name & Cell Name.
+           iii) Click on the Edit button in the simulation information section of the
+                Edit CDF window.
+End netlisting Apr 23 12:21:40 2025
 
-	The netlist is up to date.
-	Time taken to compare the design with netlist:   0.0s
+Netlisting Statistics:
+	Number of components:   20
+
+	Elapsed time:          0.0s
+Errors: 0	Warnings: 2
       ...successful.
 compose simulator input file...
       ...successful.
 
 *Info*    Running simulation on testbench [
-          folded_cascode_project:Mosfet_charecterisation:1 ] for
-          Point ID (7 1).
+          folded_cascode_project:opamp_TB_ClosedLoop:1 ] for Point ID
+          (4 1).
 
-Delete psf data in /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.180/1/folded_cascode_project:Mosfet_charecterisation:1/psf.
+Delete psf data in /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.123/1/folded_cascode_project:opamp_TB_ClosedLoop:1/psf.
 compose simulator input file...
       ...successful.
 start simulator if needed...
@@ -80,8 +92,8 @@ reading simulation data...
 *Info*    Client has finished evaluating ... 
 
 
-*Info*    Run complete for Point ID (7 1) on testbench [
-          folded_cascode_project:Mosfet_charecterisation:1 ].
+*Info*    Run complete for Point ID (4 1) on testbench [
+          folded_cascode_project:opamp_TB_ClosedLoop:1 ].
 
 
 

@@ -11,9 +11,9 @@
 	View         = schematic
 	Simulator    = spectre
 	State Path   = $AXL_SETUPDB_DIR/test_states
-	State Name   = folded_cascode_project:opamp_TB_ClosedLoop:1_none_Interactive.113
-	Results DB   = /home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.113.rdb
-	Results Dir  = /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.113/1/folded_cascode_project:opamp_TB_ClosedLoop:1
+	State Name   = folded_cascode_project:opamp_TB_ClosedLoop:1_none_Interactive.129
+	Results DB   = /home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.129.rdb
+	Results Dir  = /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.129/1/folded_cascode_project:opamp_TB_ClosedLoop:1
 	Results Loc  = /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data
 	Project Dir  = /home/cadence/simulation
 	Setup DB loc = /home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl
@@ -27,47 +27,57 @@
 
 
 
-*Info*    Run start for Point ID (6 1) on testbench [
+*Info*    Run start for Point ID (10 1) on testbench [
           folded_cascode_project:opamp_TB_ClosedLoop:1 ].
 
 Resetting statistical vars
 
 *Info*    Setting parameter values ...
 
-Setting var VB2 = "1.8"
-Setting var VB3 = "1.27"
 Setting var Vincm = "1.65"
 Setting var Vind = "1"
 Setting temp(T) = 27
 
 *Info*    Netlist Directory =
-          /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.113/1/folded_cascode_project:opamp_TB_ClosedLoop:1/netlist
+          /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.129/1/folded_cascode_project:opamp_TB_ClosedLoop:1/netlist
 
 
 *Info*    Data Directory    =
-          /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.113/1/folded_cascode_project:opamp_TB_ClosedLoop:1
+          /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.129/1/folded_cascode_project:opamp_TB_ClosedLoop:1
 
 
-*Info*    Creating Netlist for Point ID (6 1)
+*Info*    Creating Netlist for Point ID (10 1)
 
 generate netlist...
-Begin Incremental Netlisting Apr 21 10:37:05 2025
-End netlisting Apr 21 10:37:05 2025
+Begin Incremental Netlisting Apr 23 12:27:03 2025
+WARNING (ADE-6001): The number of terminals specified in CDF termOrder are more
+           than the actual number of terminals in the cellview cell-view "folded_cascode_project" "opamp_sympol" "schematic"
+WARNING (ADE-6004): Mismatch was found between the terminals in the cellView and those on the
+           termOrder property on the CDF. Because of the mismatch, the CDF termOrder will
+           be ignored. The terminals in the cellView will be netlisted in the alphabetical
+           order of their names. Eliminate the mismatch if you want the CDF termOrder
+           property to be used for netlisting.
+           To edit CDF of a cell, 
+           i) Open CIW->Tools->CDF->Edit.
+           ii) Select Library Name & Cell Name.
+           iii) Click on the Edit button in the simulation information section of the
+                Edit CDF window.
+End netlisting Apr 23 12:27:03 2025
 
 Netlisting Statistics:
 	Number of components:   20
 
-	Elapsed time:          1.0s (20.00/s)
-Errors: 0	Warnings: 0
+	Elapsed time:          0.0s
+Errors: 0	Warnings: 2
       ...successful.
 compose simulator input file...
       ...successful.
 
 *Info*    Running simulation on testbench [
           folded_cascode_project:opamp_TB_ClosedLoop:1 ] for Point ID
-          (6 1).
+          (10 1).
 
-Delete psf data in /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.113/1/folded_cascode_project:opamp_TB_ClosedLoop:1/psf.
+Delete psf data in /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.129/1/folded_cascode_project:opamp_TB_ClosedLoop:1/psf.
 compose simulator input file...
       ...successful.
 start simulator if needed...
@@ -82,7 +92,7 @@ reading simulation data...
 *Info*    Client has finished evaluating ... 
 
 
-*Info*    Run complete for Point ID (6 1) on testbench [
+*Info*    Run complete for Point ID (10 1) on testbench [
           folded_cascode_project:opamp_TB_ClosedLoop:1 ].
 
 

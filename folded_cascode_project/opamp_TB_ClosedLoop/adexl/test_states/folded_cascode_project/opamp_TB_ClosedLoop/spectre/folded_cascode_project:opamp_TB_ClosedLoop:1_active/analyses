@@ -4,7 +4,7 @@ analysis(ac fields dec) "20"
 analysis(ac fields designVar) ""
 analysis(ac fields dev) ""
 analysis(ac fields deviceParam) ""
-analysis(ac fields enable) (t)
+analysis(ac fields enable) (nil)
 analysis(ac fields fim_out) ""
 analysis(ac fields flin_out) ""
 analysis(ac fields freq) ""
@@ -60,7 +60,7 @@ analysis(dc fields dec) ""
 analysis(dc fields designVar) ""
 analysis(dc fields dev) ""
 analysis(dc fields deviceParam) ""
-analysis(dc fields enable) (t)
+analysis(dc fields enable) (nil)
 analysis(dc fields hysteresis) nil
 analysis(dc fields incrType) "Automatic"
 analysis(dc fields lin) ""
@@ -201,7 +201,7 @@ analysis(stb fields dec) "20"
 analysis(stb fields designVar) ""
 analysis(stb fields dev) ""
 analysis(stb fields deviceParam) ""
-analysis(stb fields enable) (t)
+analysis(stb fields enable) (nil)
 analysis(stb fields freq) ""
 analysis(stb fields incrType) "Logarithmic"
 analysis(stb fields lin) ""
@@ -237,7 +237,7 @@ analysis(tran fields dynParamB) nil
 analysis(tran fields dynParamListBox) (nil choices nil value nil)
 analysis(tran fields dynchoice) "Parameter file"
 analysis(tran fields dynparam) ""
-analysis(tran fields enable) (nil)
+analysis(tran fields enable) (t)
 analysis(tran fields errpreset) "moderate"
 analysis(tran fields noisefmax) ""
 analysis(tran fields noisefmin) ""

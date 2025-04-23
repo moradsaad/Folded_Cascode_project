@@ -11,9 +11,9 @@
 	View         = schematic
 	Simulator    = spectre
 	State Path   = $AXL_SETUPDB_DIR/test_states
-	State Name   = folded_cascode_project:Mosfet_charecterisation:1_none_Interactive.174
-	Results DB   = /home/cadence/Final_Design/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.174.rdb
-	Results Dir  = /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.174/1/folded_cascode_project:Mosfet_charecterisation:1
+	State Name   = folded_cascode_project:Mosfet_charecterisation:1_none_Interactive.187
+	Results DB   = /home/cadence/Final_Design/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.187.rdb
+	Results Dir  = /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.187/1/folded_cascode_project:Mosfet_charecterisation:1
 	Results Loc  = /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data
 	Project Dir  = /home/cadence/simulation
 	Setup DB loc = /home/cadence/Final_Design/folded_cascode_project/Mosfet_charecterisation/adexl
@@ -27,33 +27,33 @@
 
 
 
-*Info*    Run start for Point ID (1 1) on testbench [
+*Info*    Run start for Point ID (2 1) on testbench [
           folded_cascode_project:Mosfet_charecterisation:1 ].
 
 Resetting statistical vars
 
 *Info*    Setting parameter values ...
 
-Setting var L = "500n"
-Setting var VBS = "0"
-Setting var VDS = "0.417"
-Setting var VGS = "1.27"
-Setting var W = "1.193u"
+Setting var L = "2.95u"
+Setting var VBS = "0.583"
+Setting var VDS = "0.917"
+Setting var VGS = "0.917"
+Setting var W = "400n"
 Setting temp(T) = 27
 
 *Info*    Netlist Directory =
-          /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.174/1/folded_cascode_project:Mosfet_charecterisation:1/netlist
+          /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.187/1/folded_cascode_project:Mosfet_charecterisation:1/netlist
 
 
 *Info*    Data Directory    =
-          /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.174/1/folded_cascode_project:Mosfet_charecterisation:1
+          /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.187/1/folded_cascode_project:Mosfet_charecterisation:1
 
 
-*Info*    Creating Netlist for Point ID (1 1)
+*Info*    Creating Netlist for Point ID (2 1)
 
 generate netlist...
-Begin Incremental Netlisting Apr 21 09:30:24 2025
-End netlisting Apr 21 09:30:24 2025
+Begin Incremental Netlisting Apr 23 12:00:52 2025
+End netlisting Apr 23 12:00:52 2025
 
 	The netlist is up to date.
 	Time taken to compare the design with netlist:   0.0s
@@ -63,9 +63,9 @@ compose simulator input file...
 
 *Info*    Running simulation on testbench [
           folded_cascode_project:Mosfet_charecterisation:1 ] for
-          Point ID (1 1).
+          Point ID (2 1).
 
-Delete psf data in /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.174/1/folded_cascode_project:Mosfet_charecterisation:1/psf.
+Delete psf data in /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.187/1/folded_cascode_project:Mosfet_charecterisation:1/psf.
 compose simulator input file...
       ...successful.
 start simulator if needed...
@@ -80,7 +80,7 @@ reading simulation data...
 *Info*    Client has finished evaluating ... 
 
 
-*Info*    Run complete for Point ID (1 1) on testbench [
+*Info*    Run complete for Point ID (2 1) on testbench [
           folded_cascode_project:Mosfet_charecterisation:1 ].
 
 

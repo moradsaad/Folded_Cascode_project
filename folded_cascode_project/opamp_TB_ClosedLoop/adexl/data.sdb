@@ -121,7 +121,7 @@
 		</plottingoptions>
 	</active>
 	<history>History
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.109
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.133
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -155,7 +155,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>folded_cascode_project:opamp_TB_ClosedLoop:1_none_Interactive.109</value>
+								<value>folded_cascode_project:opamp_TB_ClosedLoop:1_none_Interactive.133</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -216,18 +216,6 @@
 					</test>
 				</tests>
 				<vars>
-					<var>VB2
-						<value>1.8</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode_project:opamp_TB_ClosedLoop:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>VB3
-						<value>1.27</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode_project:opamp_TB_ClosedLoop:1</dependentTest>
-						</dependentTests>
-					</var>
 					<var>Vincm
 						<value>1.65</value>
 						<dependentTests>
@@ -255,23 +243,23 @@
 				</plottingoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Mon Apr 21 09:42:27 2025
+			<timestamp>Wed Apr 23 13:35:03 2025
 </timestamp>
-			<resultsname>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.109.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.109.rdb</simresults>
+			<resultsname>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.133.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.133.rdb</simresults>
 			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/berkeley_cadence_094227146</localpsfdir>
-			<psfdir>/home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.109</psfdir>
-			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.109</simdir>
+			<localpsfdir>/tmp/berkeley_cadence_133504024</localpsfdir>
+			<psfdir>/home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.133</psfdir>
+			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.133</simdir>
 			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
-			<runlog>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.109.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.109.log</runlogfile>
+			<runlog>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.133.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.133.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.110
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.134
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -305,7 +293,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>folded_cascode_project:opamp_TB_ClosedLoop:1_none_Interactive.110</value>
+								<value>folded_cascode_project:opamp_TB_ClosedLoop:1_none_Interactive.134</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -366,18 +354,6 @@
 					</test>
 				</tests>
 				<vars>
-					<var>VB2
-						<value>1.8</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode_project:opamp_TB_ClosedLoop:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>VB3
-						<value>1.27</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode_project:opamp_TB_ClosedLoop:1</dependentTest>
-						</dependentTests>
-					</var>
 					<var>Vincm
 						<value>1.65</value>
 						<dependentTests>
@@ -405,23 +381,23 @@
 				</plottingoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Mon Apr 21 10:14:54 2025
+			<timestamp>Wed Apr 23 13:35:39 2025
 </timestamp>
-			<resultsname>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.110.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.110.rdb</simresults>
+			<resultsname>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.134.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.134.rdb</simresults>
 			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/berkeley_cadence_101454434</localpsfdir>
-			<psfdir>/home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.110</psfdir>
-			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.110</simdir>
+			<localpsfdir>/tmp/berkeley_cadence_133539873</localpsfdir>
+			<psfdir>/home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.134</psfdir>
+			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.134</simdir>
 			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
-			<runlog>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.110.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.110.log</runlogfile>
+			<runlog>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.134.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.134.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.111
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.135
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -455,7 +431,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>folded_cascode_project:opamp_TB_ClosedLoop:1_none_Interactive.111</value>
+								<value>folded_cascode_project:opamp_TB_ClosedLoop:1_none_Interactive.135</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -516,18 +492,6 @@
 					</test>
 				</tests>
 				<vars>
-					<var>VB2
-						<value>1.8</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode_project:opamp_TB_ClosedLoop:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>VB3
-						<value>1.27</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode_project:opamp_TB_ClosedLoop:1</dependentTest>
-						</dependentTests>
-					</var>
 					<var>Vincm
 						<value>1.65</value>
 						<dependentTests>
@@ -555,23 +519,23 @@
 				</plottingoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Mon Apr 21 10:18:31 2025
+			<timestamp>Wed Apr 23 13:36:34 2025
 </timestamp>
-			<resultsname>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.111.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.111.rdb</simresults>
+			<resultsname>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.135.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.135.rdb</simresults>
 			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/berkeley_cadence_101831299</localpsfdir>
-			<psfdir>/home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.111</psfdir>
-			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.111</simdir>
+			<localpsfdir>/tmp/berkeley_cadence_133634226</localpsfdir>
+			<psfdir>/home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.135</psfdir>
+			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.135</simdir>
 			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
-			<runlog>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.111.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.111.log</runlogfile>
+			<runlog>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.135.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.135.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.112
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.136
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -605,7 +569,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>folded_cascode_project:opamp_TB_ClosedLoop:1_none_Interactive.112</value>
+								<value>folded_cascode_project:opamp_TB_ClosedLoop:1_none_Interactive.136</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -666,18 +630,6 @@
 					</test>
 				</tests>
 				<vars>
-					<var>VB2
-						<value>1.8</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode_project:opamp_TB_ClosedLoop:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>VB3
-						<value>1.27</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode_project:opamp_TB_ClosedLoop:1</dependentTest>
-						</dependentTests>
-					</var>
 					<var>Vincm
 						<value>1.65</value>
 						<dependentTests>
@@ -705,23 +657,23 @@
 				</plottingoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Mon Apr 21 10:35:41 2025
+			<timestamp>Wed Apr 23 13:37:09 2025
 </timestamp>
-			<resultsname>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.112.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.112.rdb</simresults>
+			<resultsname>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.136.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.136.rdb</simresults>
 			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/berkeley_cadence_103541528</localpsfdir>
-			<psfdir>/home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.112</psfdir>
-			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.112</simdir>
+			<localpsfdir>/tmp/berkeley_cadence_133709174</localpsfdir>
+			<psfdir>/home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.136</psfdir>
+			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.136</simdir>
 			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
-			<runlog>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.112.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.112.log</runlogfile>
+			<runlog>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.136.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.136.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.113
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.137
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -755,7 +707,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>folded_cascode_project:opamp_TB_ClosedLoop:1_none_Interactive.113</value>
+								<value>folded_cascode_project:opamp_TB_ClosedLoop:1_none_Interactive.137</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -816,18 +768,6 @@
 					</test>
 				</tests>
 				<vars>
-					<var>VB2
-						<value>1.8</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode_project:opamp_TB_ClosedLoop:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>VB3
-						<value>1.27</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode_project:opamp_TB_ClosedLoop:1</dependentTest>
-						</dependentTests>
-					</var>
 					<var>Vincm
 						<value>1.65</value>
 						<dependentTests>
@@ -855,23 +795,23 @@
 				</plottingoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Mon Apr 21 10:37:01 2025
+			<timestamp>Wed Apr 23 13:37:42 2025
 </timestamp>
-			<resultsname>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.113.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.113.rdb</simresults>
+			<resultsname>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.137.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.137.rdb</simresults>
 			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/berkeley_cadence_103701857</localpsfdir>
-			<psfdir>/home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.113</psfdir>
-			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.113</simdir>
+			<localpsfdir>/tmp/berkeley_cadence_133742547</localpsfdir>
+			<psfdir>/home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.137</psfdir>
+			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.137</simdir>
 			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
-			<runlog>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.113.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.113.log</runlogfile>
+			<runlog>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.137.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.137.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.114
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.138
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -905,7 +845,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>folded_cascode_project:opamp_TB_ClosedLoop:1_none_Interactive.114</value>
+								<value>folded_cascode_project:opamp_TB_ClosedLoop:1_none_Interactive.138</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -966,18 +906,6 @@
 					</test>
 				</tests>
 				<vars>
-					<var>VB2
-						<value>1.8</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode_project:opamp_TB_ClosedLoop:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>VB3
-						<value>1.27</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode_project:opamp_TB_ClosedLoop:1</dependentTest>
-						</dependentTests>
-					</var>
 					<var>Vincm
 						<value>1.65</value>
 						<dependentTests>
@@ -1005,23 +933,23 @@
 				</plottingoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Mon Apr 21 10:37:27 2025
+			<timestamp>Wed Apr 23 13:38:37 2025
 </timestamp>
-			<resultsname>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.114.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.114.rdb</simresults>
+			<resultsname>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.138.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.138.rdb</simresults>
 			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/berkeley_cadence_103727277</localpsfdir>
-			<psfdir>/home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.114</psfdir>
-			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.114</simdir>
+			<localpsfdir>/tmp/berkeley_cadence_133838049</localpsfdir>
+			<psfdir>/home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.138</psfdir>
+			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.138</simdir>
 			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
-			<runlog>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.114.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.114.log</runlogfile>
+			<runlog>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.138.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.138.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.115
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.139
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -1055,7 +983,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>folded_cascode_project:opamp_TB_ClosedLoop:1_none_Interactive.115</value>
+								<value>folded_cascode_project:opamp_TB_ClosedLoop:1_none_Interactive.139</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -1143,23 +1071,23 @@
 				</plottingoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Mon Apr 21 10:41:55 2025
+			<timestamp>Wed Apr 23 13:39:19 2025
 </timestamp>
-			<resultsname>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.115.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.115.rdb</simresults>
+			<resultsname>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.139.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.139.rdb</simresults>
 			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/berkeley_cadence_104156050</localpsfdir>
-			<psfdir>/home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.115</psfdir>
-			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.115</simdir>
+			<localpsfdir>/tmp/berkeley_cadence_133919454</localpsfdir>
+			<psfdir>/home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.139</psfdir>
+			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.139</simdir>
 			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
-			<runlog>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.115.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.115.log</runlogfile>
+			<runlog>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.139.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.139.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.116
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.140
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -1193,7 +1121,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>folded_cascode_project:opamp_TB_ClosedLoop:1_none_Interactive.116</value>
+								<value>folded_cascode_project:opamp_TB_ClosedLoop:1_none_Interactive.140</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -1281,23 +1209,23 @@
 				</plottingoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Mon Apr 21 10:43:46 2025
+			<timestamp>Wed Apr 23 13:41:21 2025
 </timestamp>
-			<resultsname>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.116.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.116.rdb</simresults>
+			<resultsname>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.140.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.140.rdb</simresults>
 			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/berkeley_cadence_104346769</localpsfdir>
-			<psfdir>/home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.116</psfdir>
-			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.116</simdir>
+			<localpsfdir>/tmp/berkeley_cadence_134121412</localpsfdir>
+			<psfdir>/home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.140</psfdir>
+			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.140</simdir>
 			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
-			<runlog>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.116.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.116.log</runlogfile>
+			<runlog>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.140.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.140.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.117
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.141
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -1331,7 +1259,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>folded_cascode_project:opamp_TB_ClosedLoop:1_none_Interactive.117</value>
+								<value>folded_cascode_project:opamp_TB_ClosedLoop:1_none_Interactive.141</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -1419,23 +1347,23 @@
 				</plottingoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Mon Apr 21 10:47:57 2025
+			<timestamp>Wed Apr 23 13:42:58 2025
 </timestamp>
-			<resultsname>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.117.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.117.rdb</simresults>
+			<resultsname>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.141.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.141.rdb</simresults>
 			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/berkeley_cadence_104757414</localpsfdir>
-			<psfdir>/home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.117</psfdir>
-			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.117</simdir>
+			<localpsfdir>/tmp/berkeley_cadence_134259014</localpsfdir>
+			<psfdir>/home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.141</psfdir>
+			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.141</simdir>
 			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
-			<runlog>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.117.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.117.log</runlogfile>
+			<runlog>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.141.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.141.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.118
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.142
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -1469,7 +1397,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>folded_cascode_project:opamp_TB_ClosedLoop:1_none_Interactive.118</value>
+								<value>folded_cascode_project:opamp_TB_ClosedLoop:1_none_Interactive.142</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -1557,19 +1485,19 @@
 				</plottingoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Mon Apr 21 10:49:53 2025
+			<timestamp>Wed Apr 23 13:43:53 2025
 </timestamp>
-			<resultsname>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.118.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.118.rdb</simresults>
+			<resultsname>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.142.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.142.rdb</simresults>
 			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/berkeley_cadence_104953560</localpsfdir>
-			<psfdir>/home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.118</psfdir>
-			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.118</simdir>
+			<localpsfdir>/tmp/berkeley_cadence_134353474</localpsfdir>
+			<psfdir>/home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.142</psfdir>
+			<simdir>$AXL_PROJECT_DIR/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.142</simdir>
 			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
-			<runlog>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.118.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.118.log</runlogfile>
+			<runlog>/home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.142.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.142.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>

@@ -7,16 +7,16 @@
 *Info*    Configuring the session ...
 
 	Library      = folded_cascode_project
-	Cell         = opamp_TB_ClosedLoop
+	Cell         = Mosfet_charecterisation
 	View         = schematic
 	Simulator    = spectre
 	State Path   = $AXL_SETUPDB_DIR/test_states
-	State Name   = folded_cascode_project:opamp_TB_ClosedLoop:1_none_Interactive.117
-	Results DB   = /home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.117.rdb
-	Results Dir  = /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.117/1/folded_cascode_project:opamp_TB_ClosedLoop:1
-	Results Loc  = /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data
+	State Name   = folded_cascode_project:Mosfet_charecterisation:1_none_Interactive.194
+	Results DB   = /home/cadence/Final_Design/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.194.rdb
+	Results Dir  = /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.194/1/folded_cascode_project:Mosfet_charecterisation:1
+	Results Loc  = /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data
 	Project Dir  = /home/cadence/simulation
-	Setup DB loc = /home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl
+	Setup DB loc = /home/cadence/Final_Design/folded_cascode_project/Mosfet_charecterisation/adexl
 	File Encoding = 0
 
 
@@ -27,65 +27,56 @@
 
 
 
-*Info*    Run start for Point ID (10 1) on testbench [
-          folded_cascode_project:opamp_TB_ClosedLoop:1 ].
+*Info*    Run start for Point ID (9 1) on testbench [
+          folded_cascode_project:Mosfet_charecterisation:1 ].
 
 Resetting statistical vars
 
 *Info*    Setting parameter values ...
 
-Setting var Vincm = "1.65"
-Setting var Vind = "1"
+Setting var L = "2.56u"
+Setting var VBS = "0"
+Setting var VDS = "0.417"
+Setting var VGS = "1.27"
+Setting var W = "400n"
 Setting temp(T) = 27
 
 *Info*    Netlist Directory =
-          /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.117/1/folded_cascode_project:opamp_TB_ClosedLoop:1/netlist
+          /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.194/1/folded_cascode_project:Mosfet_charecterisation:1/netlist
 
 
 *Info*    Data Directory    =
-          /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.117/1/folded_cascode_project:opamp_TB_ClosedLoop:1
+          /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.194/1/folded_cascode_project:Mosfet_charecterisation:1
 
 
-*Info*    Creating Netlist for Point ID (10 1)
+*Info*    Creating Netlist for Point ID (9 1)
 
 generate netlist...
-Begin Incremental Netlisting Apr 21 10:48:01 2025
-WARNING (OSSHNL-160): The primitive, 'analogLib/vsource/spectre', was not used in the last netlisting session in this
+Begin Incremental Netlisting Apr 23 12:56:39 2025
+WARNING (OSSHNL-160): The primitive, 'tsmcN65/nch_25od33_mac/spectre', was not used in the last netlisting session in this
 current run directory. Therefore, re-netlisting all cell views where this
 primitive is instantiated.
 
-WARNING (OSSHNL-195): The value of the property "nlAction" on instance 'V1' in cell 'opamp_TB_ClosedLoop', view
+WARNING (OSSHNL-195): The value of the property "nlAction" on instance 'M0' in cell 'Mosfet_charecterisation', view
 'schematic', has changed since the last netlisting session in the current run
 directory. Some cell views will be re-netlisted.
 
-WARNING (ADE-6001): The number of terminals specified in CDF termOrder are more
-           than the actual number of terminals in the cellview cell-view "folded_cascode_project" "opamp_sympol" "schematic"
-WARNING (ADE-6004): Mismatch was found between the terminals in the cellView and those on the
-           termOrder property on the CDF. Because of the mismatch, the CDF termOrder will
-           be ignored. The terminals in the cellView will be netlisted in the alphabetical
-           order of their names. Eliminate the mismatch if you want the CDF termOrder
-           property to be used for netlisting.
-           To edit CDF of a cell, 
-           i) Open CIW->Tools->CDF->Edit.
-           ii) Select Library Name & Cell Name.
-           iii) Click on the Edit button in the simulation information section of the
-                Edit CDF window.
-End netlisting Apr 21 10:48:01 2025
+End netlisting Apr 23 12:56:40 2025
 
 Netlisting Statistics:
-	Number of components:   26
+	Number of components:    6
 
-	Elapsed time:          1.0s (26.00/s)
-Errors: 0	Warnings: 2
+	Elapsed time:          1.0s (6.00/s)
+Errors: 0	Warnings: 0
       ...successful.
 compose simulator input file...
       ...successful.
 
 *Info*    Running simulation on testbench [
-          folded_cascode_project:opamp_TB_ClosedLoop:1 ] for Point ID
-          (10 1).
+          folded_cascode_project:Mosfet_charecterisation:1 ] for
+          Point ID (9 1).
 
-Delete psf data in /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.117/1/folded_cascode_project:opamp_TB_ClosedLoop:1/psf.
+Delete psf data in /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.194/1/folded_cascode_project:Mosfet_charecterisation:1/psf.
 compose simulator input file...
       ...successful.
 start simulator if needed...
@@ -94,14 +85,34 @@ simulate...
 To view the simulator output, right-click on the test name, result 
 name, or any value in the "Results" tab of the Outputs section and 
 choose "Output Log" menu option.
-INFO (ADE-3071): Simulation completed successfully.
+INFO (ADE-3067): Errors encountered during simulation. For more information, right-click
+        on a test name in the 'Results' tab of the Outputs pane and choose 'Output Log'
+        to view the simulation run log.
 reading simulation data...
       ...successful.
+
+*Error*   Error ID  = 5011
+*Error*   Error Msg = Simulator failed to complete the simulation.
+
+          Error found by spectre during DC analysis `dc'.
+Error found
+          by spectre during DC analysis `dc'.
+ERROR (CMI-2440): M0:
+          Instance length width or area does not fit the given
+          lmax-lmin, wmax-wmin or areamax-areamin range for any model
+          in the `M0.nch_
+33' group. The nearest model could be
+          chosen by setting option soft_bin=allmodels.
+
+
+
+
+
 *Info*    Client has finished evaluating ... 
 
 
-*Info*    Run complete for Point ID (10 1) on testbench [
-          folded_cascode_project:opamp_TB_ClosedLoop:1 ].
+*Info*    Run complete for Point ID (9 1) on testbench [
+          folded_cascode_project:Mosfet_charecterisation:1 ].
 
 
 

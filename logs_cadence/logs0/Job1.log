@@ -11,9 +11,9 @@
 	View         = schematic
 	Simulator    = spectre
 	State Path   = $AXL_SETUPDB_DIR/test_states
-	State Name   = folded_cascode_project:opamp_TB_ClosedLoop:1_none_Interactive.107
-	Results DB   = /home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.107.rdb
-	Results Dir  = /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.107/1/folded_cascode_project:opamp_TB_ClosedLoop:1
+	State Name   = folded_cascode_project:opamp_TB_ClosedLoop:1_none_Interactive.119
+	Results DB   = /home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.119.rdb
+	Results Dir  = /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.119/1/folded_cascode_project:opamp_TB_ClosedLoop:1
 	Results Loc  = /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data
 	Project Dir  = /home/cadence/simulation
 	Setup DB loc = /home/cadence/Final_Design/folded_cascode_project/opamp_TB_ClosedLoop/adexl
@@ -34,41 +34,43 @@ Resetting statistical vars
 
 *Info*    Setting parameter values ...
 
-Setting var VB2 = "1.8"
-Setting var VB3 = "1.27"
 Setting var Vincm = "1.65"
 Setting var Vind = "1"
 Setting temp(T) = 27
 
 *Info*    Netlist Directory =
-          /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.107/1/folded_cascode_project:opamp_TB_ClosedLoop:1/netlist
+          /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.119/1/folded_cascode_project:opamp_TB_ClosedLoop:1/netlist
 
 
 *Info*    Data Directory    =
-          /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.107/1/folded_cascode_project:opamp_TB_ClosedLoop:1
+          /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.119/1/folded_cascode_project:opamp_TB_ClosedLoop:1
 
 
 *Info*    Creating Netlist for Point ID (0 1)
 
 generate netlist...
 Loading seCore.cxt 
-Begin Incremental Netlisting Apr 21 08:56:44 2025
-WARNING (OSSHNL-160): The primitive, 'analogLib/vsource/spectre', was not used in the last netlisting session in this
-current run directory. Therefore, re-netlisting all cell views where this
-primitive is instantiated.
-
-WARNING (OSSHNL-195): The value of the property "nlAction" on instance 'V1' in cell 'opamp_TB_ClosedLoop', view
-'schematic', has changed since the last netlisting session in the current run
-directory. Some cell views will be re-netlisted.
-
-End netlisting Apr 21 08:56:44 2025
+Begin Incremental Netlisting Apr 23 11:31:05 2025
+WARNING (ADE-6001): The number of terminals specified in CDF termOrder are more
+           than the actual number of terminals in the cellview cell-view "folded_cascode_project" "opamp_sympol" "schematic"
+WARNING (ADE-6004): Mismatch was found between the terminals in the cellView and those on the
+           termOrder property on the CDF. Because of the mismatch, the CDF termOrder will
+           be ignored. The terminals in the cellView will be netlisted in the alphabetical
+           order of their names. Eliminate the mismatch if you want the CDF termOrder
+           property to be used for netlisting.
+           To edit CDF of a cell, 
+           i) Open CIW->Tools->CDF->Edit.
+           ii) Select Library Name & Cell Name.
+           iii) Click on the Edit button in the simulation information section of the
+                Edit CDF window.
+End netlisting Apr 23 11:31:05 2025
 Loading monte.cxt 
 
 Netlisting Statistics:
-	Number of components:   22
+	Number of components:   20
 
-	Elapsed time:          1.0s (22.00/s)
-Errors: 0	Warnings: 0
+	Elapsed time:          0.0s
+Errors: 0	Warnings: 2
       ...successful.
 compose simulator input file...
       ...successful.
@@ -77,7 +79,7 @@ compose simulator input file...
           folded_cascode_project:opamp_TB_ClosedLoop:1 ] for Point ID
           (0 1).
 
-Delete psf data in /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.107/1/folded_cascode_project:opamp_TB_ClosedLoop:1/psf.
+Delete psf data in /home/cadence/simulation/folded_cascode_project/opamp_TB_ClosedLoop/adexl/results/data/Interactive.119/1/folded_cascode_project:opamp_TB_ClosedLoop:1/psf.
 compose simulator input file...
       ...successful.
 start simulator if needed...

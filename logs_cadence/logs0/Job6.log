@@ -11,9 +11,9 @@
 	View         = schematic
 	Simulator    = spectre
 	State Path   = $AXL_SETUPDB_DIR/test_states
-	State Name   = folded_cascode_project:Mosfet_charecterisation:1_none_Interactive.173
-	Results DB   = /home/cadence/Final_Design/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.173.rdb
-	Results Dir  = /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.173/1/folded_cascode_project:Mosfet_charecterisation:1
+	State Name   = folded_cascode_project:Mosfet_charecterisation:1_none_Interactive.186
+	Results DB   = /home/cadence/Final_Design/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.186.rdb
+	Results Dir  = /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.186/1/folded_cascode_project:Mosfet_charecterisation:1
 	Results Loc  = /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data
 	Project Dir  = /home/cadence/simulation
 	Setup DB loc = /home/cadence/Final_Design/folded_cascode_project/Mosfet_charecterisation/adexl
@@ -27,56 +27,45 @@
 
 
 
-*Info*    Run start for Point ID (0 1) on testbench [
+*Info*    Run start for Point ID (1 1) on testbench [
           folded_cascode_project:Mosfet_charecterisation:1 ].
 
 Resetting statistical vars
 
 *Info*    Setting parameter values ...
 
-Setting var L = "500n"
+Setting var L = "2.95u"
 Setting var VBS = "0"
-Setting var VDS = "0.417"
-Setting var VGS = "1.27"
-Setting var W = "20u"
+Setting var VDS = "0.583"
+Setting var VGS = "1.5"
+Setting var W = "400n"
 Setting temp(T) = 27
 
 *Info*    Netlist Directory =
-          /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.173/1/folded_cascode_project:Mosfet_charecterisation:1/netlist
+          /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.186/1/folded_cascode_project:Mosfet_charecterisation:1/netlist
 
 
 *Info*    Data Directory    =
-          /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.173/1/folded_cascode_project:Mosfet_charecterisation:1
+          /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.186/1/folded_cascode_project:Mosfet_charecterisation:1
 
 
-*Info*    Creating Netlist for Point ID (0 1)
+*Info*    Creating Netlist for Point ID (1 1)
 
 generate netlist...
-Begin Incremental Netlisting Apr 21 09:27:44 2025
-WARNING (OSSHNL-160): The primitive, 'tsmcN65/nch_25od33_mac/spectre', was not used in the last netlisting session in this
-current run directory. Therefore, re-netlisting all cell views where this
-primitive is instantiated.
+Begin Incremental Netlisting Apr 23 11:57:07 2025
+End netlisting Apr 23 11:57:07 2025
 
-WARNING (OSSHNL-195): The value of the property "nlAction" on instance 'M0' in cell 'Mosfet_charecterisation', view
-'schematic', has changed since the last netlisting session in the current run
-directory. Some cell views will be re-netlisted.
-
-End netlisting Apr 21 09:27:44 2025
-
-Netlisting Statistics:
-	Number of components:    6
-
-	Elapsed time:          0.0s
-Errors: 0	Warnings: 0
+	The netlist is up to date.
+	Time taken to compare the design with netlist:   0.0s
       ...successful.
 compose simulator input file...
       ...successful.
 
 *Info*    Running simulation on testbench [
           folded_cascode_project:Mosfet_charecterisation:1 ] for
-          Point ID (0 1).
+          Point ID (1 1).
 
-Delete psf data in /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.173/1/folded_cascode_project:Mosfet_charecterisation:1/psf.
+Delete psf data in /home/cadence/simulation/folded_cascode_project/Mosfet_charecterisation/adexl/results/data/Interactive.186/1/folded_cascode_project:Mosfet_charecterisation:1/psf.
 compose simulator input file...
       ...successful.
 start simulator if needed...
@@ -91,7 +80,7 @@ reading simulation data...
 *Info*    Client has finished evaluating ... 
 
 
-*Info*    Run complete for Point ID (0 1) on testbench [
+*Info*    Run complete for Point ID (1 1) on testbench [
           folded_cascode_project:Mosfet_charecterisation:1 ].
 
 
